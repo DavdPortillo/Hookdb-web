@@ -4,6 +4,8 @@
 
 Por favor, visita el enlace para obtener más detalles sobre el proyecto.
 
+#
+
 # Documentación de la API 📚
 
 ## Tecnologías Utilizadas 💻
@@ -47,7 +49,7 @@ El despliegue de esta API se realiza utilizando las siguientes tecnologías:
 - **Dominio**: Se utiliza un dominio personalizado para alojar la web de la aplicación.
 - **Cloudflare**: Servicio que proporciona protección y aceleración de cualquier sitio web en línea. Se utiliza para mejorar la seguridad y el rendimiento de la web de la aplicación.
 - **GitHub Actions**: Plataforma de integración continua y entrega continua (CI/CD) de GitHub que permite automatizar, personalizar y ejecutar tus flujos de trabajo de software.
-- **HTTPS**: Protocolo de transferencia de hipertexto seguro. Se utiliza para proporcionar seguridad en la comunicación de la aplicación.
+
 
 ## Proceso de Despliegue 🔄
 
