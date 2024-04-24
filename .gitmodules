@@ -1,3 +1,4 @@
 [submodule "hookdb-api"]
 	path = hookdb-api
-	url = https://github.com/DavdPortillo/WinningStation.git
+	url = https://github.com/DavdPortillo/hookdb-api.git
+
