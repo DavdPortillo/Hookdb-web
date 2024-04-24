@@ -37,6 +37,8 @@ La API implementa medidas de seguridad para proteger los datos y garantizar que 
 
 Esta API ha sido desarrollada por **David Portillo Hoyos**.
 
+#
+
 # Documentación del Despliegue 🚀
 
 ## Tecnologías Utilizadas 🛠️
@@ -62,5 +64,7 @@ Se utiliza Cloudflare para proporcionar una capa adicional de seguridad y mejora
 ## Autor 🖋️
 
 La configuración y el proceso de despliegue han sido desarrollados por **David Portillo Hoyos**.
+
+#
 
 
