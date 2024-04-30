@@ -26,10 +26,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
-Å
-Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1/0/10a03f31c4dce92cb371e761ce9429428bb6c176
-w
-G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
 z
 Jhookdb-api/src/main/java/com/winningstation/dto/ScoreAverageResultDTO.java,9/d/9d75eb9eaea4d088831a4dd175eebb66e6b21628
 l
@@ -52,3 +48,5 @@ t
 Dhookdb-api/src/main/java/com/winningstation/entity/NumberPlayer.java,5/c/5cdc11c76479e9a6f217b39c4970fe5ab201d97a
 u
 Ehookdb-api/src/main/java/com/winningstation/services/GameService.java,6/b/6b18ca1d0fd7acd2596dd053540edb55992d0a4b
+s
+Chookdb-api/src/main/java/com/winningstation/dto/GameAndSagaDTO.java,8/2/8248f808605bdefb655f39462f360b19a6939e6f
