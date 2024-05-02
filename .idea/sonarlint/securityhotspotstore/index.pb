@@ -50,3 +50,13 @@ u
 Ehookdb-api/src/main/java/com/winningstation/services/GameService.java,6/b/6b18ca1d0fd7acd2596dd053540edb55992d0a4b
 s
 Chookdb-api/src/main/java/com/winningstation/dto/GameAndSagaDTO.java,8/2/8248f808605bdefb655f39462f360b19a6939e6f
+
+Qhookdb-api/src/main/java/com/winningstation/services/interfaces/INewsService.java,a/8/a801c122c58bd359937188234a3531e080757979
+u
+Ehookdb-api/src/main/java/com/winningstation/services/NewsService.java,3/b/3b44b31051670f9a08fcba575d957bb048508b56
+z
+Jhookdb-api/src/main/java/com/winningstation/controller/NewsController.java,2/a/2aeba8091c7f1a88529d2ff80e145a110fff089f
+n
+>hookdb-api/src/main/java/com/winningstation/dto/GameAdmin.java,9/3/938a14626cf13521aebd0ce9b96ce724ba12298c
+q
+Ahookdb-api/src/main/java/com/winningstation/dto/GameAdminDTO.java,5/f/5f146cd39e8d02e98465bbfd2163c4e5a7d3f1bc
