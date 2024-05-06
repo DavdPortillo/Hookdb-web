@@ -60,3 +60,7 @@ n
 >hookdb-api/src/main/java/com/winningstation/dto/GameAdmin.java,9/3/938a14626cf13521aebd0ce9b96ce724ba12298c
 q
 Ahookdb-api/src/main/java/com/winningstation/dto/GameAdminDTO.java,5/f/5f146cd39e8d02e98465bbfd2163c4e5a7d3f1bc
+t
+Dhookdb-api/src/main/java/com/winningstation/entity/Availability.java,a/d/ada46f982c94eb0d6a72101bdad98a3d36911f70
+p
+@hookdb-api/src/main/java/com/winningstation/entity/Language.java,7/d/7db809f32bea2aac451a38757b12b486c65eedc8
