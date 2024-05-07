@@ -66,5 +66,10 @@ Se utiliza Cloudflare para proporcionar una capa adicional de seguridad y mejora
 La configuración y el proceso de despliegue han sido desarrollados por **David Portillo Hoyos**.
 
 #
+# Bibliografía utilizada 📚
+[Documentación de Spring](https://docs.spring.io/spring-framework/reference/index.html)
+
+
+
 
 
