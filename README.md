@@ -5,9 +5,9 @@
 
 #
 
-# Documentación de la API 📚
+# Historial de cambios 📚
 
-## Tecnologías Utilizadas 💻
+## API
 
 Esta API ha sido desarrollada utilizando las siguientes tecnologías:
 
