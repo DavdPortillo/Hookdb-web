@@ -81,7 +81,7 @@ El front-end ha sido desarrollado utilizando las siguientes tecnologías:
 - **Icons material**: es una biblioteca de iconos que proporciona una gran cantidad de iconos vectoriales.
 
 
-## Estructura del proyecto 💻
+## Estructura del proyecto 🏗️
 Para crear una jerarquía sencilla e intuitiva, ya que el proyecto es bastante complejo, he desarrollado la siguiente estructura:     
 
 📁Pages  
