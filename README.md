@@ -10,7 +10,7 @@ El historial de cambios de la API se encuentra en los commits de el mismo reposi
 
 #
 
-## API
+## API 📚
 
 Esta API ha sido desarrollada utilizando las siguientes tecnologías:
 
