@@ -1,0 +1,124 @@
+// pipeline {
+//     agent any
+
+//     environment {
+//         sshCredentials = 'ORACLE-SERVER'
+//         DOCKER_CREDENTIALS = 'FRONT-DOCKER'
+//     }
+
+//     tools {
+//         nodejs 'node'
+//     }
+
+//     triggers {
+//         githubPush()
+//     }
+
+//     stages {
+//         stage('SSH Test') {
+//             steps {
+//                 sshagent(credentials: [sshCredentials]) {
+//                     sh 'ssh -o StrictHostKeyChecking=no opc@158.179.219.214 echo Conexión exitosa'
+//                 }
+//             }
+//         }
+//         stage('Checkout') {
+//             steps {
+//                 git branch: 'main',
+//                 credentialsId: '2e9cf125-4d0e-4899-bef2-66231d695e96',
+//                 url: 'https://github.com/Dsertor/Project-Peanut.git'
+//             }
+//         }
+//         stage('Build App') {
+//             steps {
+//                 sh 'npm install'
+//                 sh 'npm run build'
+//             }
+//         }
+//         // stage('SonarQube analysis') {
+//         //     steps {
+//         //         script {
+//         //             docker.image('sonarsource/sonar-scanner-cli').inside {
+//         //                 withSonarQubeEnv('Sonarqube') {
+//         //                     sh '''
+//         //                 sonar-scanner \
+//         //                 -Dsonar.projectKey=peanut-front \
+//         //                 -Dsonar.sources=. \
+//         //                 -Dsonar.host.url=http://158.179.219.214:9000 \
+//         //                 -Dsonar.token=sqp_06703eca386c8c2b6c9a96d790ae91fcbf66689f
+//         //             '''
+//         //                 }
+//         //             }
+//         //         }
+//         //     }
+//         // }
+
+//         stage('Build and Push Docker Images') {
+//             steps {
+//                 script {
+//                     String gitCommitFull = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
+//                     String gitCommit = gitCommitFull.substring(0, 7)
+//                     docker.withRegistry('https://index.docker.io/v1/', DOCKER_CREDENTIALS) {
+//                         sh """
+//                             docker buildx create --name multi-arch-builder --use
+//                             docker buildx build --builder multi-arch-builder --platform linux/amd64,linux/arm64 -t desertors/project-peanut:$gitCommit --build-arg GIT_COMMIT=$gitCommit --push .
+//                             docker buildx imagetools create --tag desertors/project-peanut:latest desertors/project-peanut:$gitCommit
+//                             docker buildx imagetools push desertors/project-peanut:$gitCommit
+//                             docker buildx imagetools push desertors/project-peanut:latest
+//                             docker buildx rm multi-arch-builder
+//                         """
+//                     }
+//                 }
+//             }
+//         }
+//         stage('Cleanup') {
+//             steps {
+//                 sh 'rm -rf *'
+//             }
+//         }
+//         stage('Deploy to Server') {
+//             steps {
+//                     sshagent(credentials: [sshCredentials]) {
+//                     script {
+//                         String gitCommitFull = sh(script: 'git rev-parse HEAD', returnStdout: true).trim()
+//                         String gitCommit = gitCommitFull.substring(0, 7)
+//                         sh """
+//                             ssh opc@158.179.219.214 <<EOF
+//                             cd k8s
+//                             cp front-deployment-template.yaml front-deployment.yaml
+//                             sed -i 's|desertors/project-peanut:latest|desertors/project-peanut:$gitCommit|' front-deployment.yaml
+//                             kubectl apply -f front-deployment.yaml
+// EOF
+
+//                     """
+//                     }
+//                     }
+//             }
+//         }
+//         stage('Cleanup Docker Images on Server') {
+//             steps {
+//                 sshagent(credentials: [sshCredentials]) {
+//                     sh '''
+//                     ssh opc@158.179.219.214 <<EOF
+
+//                     # Eliminar las imágenes antiguas de Docker
+//                     docker image prune -a -f
+// EOF
+//                 '''
+//                 }
+//             }
+//         }
+//     }
+//     post {
+//             failure {
+//                 emailext(
+//                     to: 'proyectodesertor@gmail.com',
+//                     subject: "Fallo en la Pipeline: ${currentBuild.fullDisplayName}",
+//                     body: """Algo salió mal con la Pipeline: ${env.BUILD_URL}
+//                     """,
+//                     attachLog: true
+//             )
+//             }
+//     }
+// }
+

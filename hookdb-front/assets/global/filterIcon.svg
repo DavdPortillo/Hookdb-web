@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.94 12.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Ficha_de_juego" data-name="Ficha de juego">
+    <g id="Pestaña_Precios" data-name="Pestaña Precios">
+      <g>
+        <rect class="cls-1" x="0" width="18.94" height="3.53" rx=".24" ry=".24"/>
+        <rect class="cls-1" y="4.58" width="10.32" height="3.53" rx=".24" ry=".24"/>
+        <rect class="cls-1" y="9.17" width="5.16" height="3.53" rx=".24" ry=".24"/>
+      </g>
+    </g>
+  </g>
+</svg>

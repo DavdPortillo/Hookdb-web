@@ -1,0 +1,17 @@
+.userOptions {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    background-color: var(--container-secondary-bg);
+}
+
+.userLink{
+    padding: 10px 20px;
+}
+
+.userLink:hover{
+    background-color: #27303c62;
+
+}

@@ -1,0 +1,15 @@
+.dlcs{
+    grid-column: 5 / -1;
+} 
+
+.noDlcs{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+} 
+
+@media (max-width: 1200px){
+    .dlcs{
+        grid-column: 1 / -1;
+    } 
+}

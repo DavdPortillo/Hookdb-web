@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.73 10.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2e9e2e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Ficha_de_juego" data-name="Ficha de juego">
+    <g id="Pestaña_Críticas" data-name="Pestaña Críticas">
+      <path class="cls-1" d="m5.36,0C2.4,0,0,2.4,0,5.36s2.4,5.36,5.36,5.36,5.36-2.4,5.36-5.36c0-2.96-2.4-5.36-5.36-5.36Zm0,10.23c-2.68,0-4.86-2.18-4.86-4.86S2.68.5,5.36.5s4.86,2.18,4.86,4.86c0,2.68-2.18,4.86-4.86,4.86Z"/>
+      <path class="cls-1" d="m7.37,3.55l-3.14,3.09-.86-.9c-.1-.1-.26-.1-.36,0-.1.09-.1.25,0,.35l1.04,1.09s.11.08.18.08h0c.07,0,.13-.03.18-.07l3.32-3.27c.1-.1.1-.26,0-.36-.1-.1-.26-.1-.36,0h0Z"/>
+    </g>
+  </g>
+</svg>

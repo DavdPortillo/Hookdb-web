@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.69 28.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Ficha_de_juego" data-name="Ficha de juego">
+    <g id="Pestaña_Precios" data-name="Pestaña Precios">
+      <path class="cls-1" d="m14.34,0C6.42,0,0,6.42,0,14.34s6.42,14.34,14.34,14.34,14.34-6.42,14.34-14.34S22.27,0,14.34,0Zm-5.86,8.7h8.2l-1.25,2H7.24l1.24-2Zm14.03,10l-1.32-2h-3.8l1.22-2h1.28l-1.42-2.16-3.91,6.16H3.99l2.53-4h-1.83l1.27-2h7.71l-1.27,2h-3.33l-1.28,2h5.56l5.02-7.99,6.58,9.98h-2.43Z"/>
+    </g>
+  </g>
+</svg>

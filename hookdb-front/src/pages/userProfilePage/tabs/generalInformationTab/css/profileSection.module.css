@@ -1,0 +1,45 @@
+/* .profileSection{
+
+} */
+
+.imageContainer{
+    height: 160px;
+    width: 160px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.noImageContainer{
+    height: 160px;
+    width: 160px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.button{
+    padding: 5px 28px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.noImage{
+    height: 90%;
+    width: 90%;
+
+}
+
+.inputFile{
+    display: none;
+}

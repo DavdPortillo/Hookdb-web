@@ -1,0 +1,216 @@
+.mainInformation {
+    grid-column: 2 / -2;
+    height: 560px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.titleContainer {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.releaseDate {
+    font-size: 14px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.gameDetailsContainer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 190px 50px 190px 65px;
+    gap: 0 20px;
+}
+
+.coverContainer {
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+
+.gameInformation {
+    grid-column: 1/8;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.actionButtonSection {
+    grid-column: 1/8;
+    grid-row: 2/3;
+    display: flex;
+    align-items: center;
+}
+
+.listContainer{
+    margin: 10px 0 0;
+}
+
+.actionButtonContainer {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.buttonContainer {
+    flex: 1;
+    position: relative;
+}
+
+.button {
+    width: 100%;
+    padding: 6px 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.providersContainer {
+    margin: 0;
+}
+
+.text {
+    font-size: 12px;
+    color: #999999;
+    margin: 2px 0 0;
+}
+
+.platformTag {
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 0.3rem 0.8rem;
+    border-radius: 16px;
+    border: 1px solid white;
+}
+
+.platformContainer {
+    margin-top: 10px;
+    display: flex;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px;
+}
+
+/* Start Right side*/
+
+.rightSide {
+    grid-column: 8/-1;
+    grid-row: 1/4;
+    background-color: rgba(0, 128, 0, 0.238);
+}
+
+.listItem:nth-child(1) {
+    /* TODO esto no esta terminado y no usar pseudoclase*/
+    background-color: var(--button-active);
+    border-radius: 3px;
+}
+
+.aa {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.aa video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*TODO Esto hace que se amplie y pueda no verse algo del video*/
+}
+
+/* End Right side*/
+
+.block {
+    position: initial;
+}
+
+
+@media (max-width: 992px) {
+    .releaseDate {
+        padding: 0;
+    }
+    .gameDetailsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .coverContainer {
+        grid-column: 1/11;
+        grid-row: 1/2;
+        max-height: 460px;
+    }
+
+    .cover{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mainInformation {
+        height: auto;
+    }
+
+    .gameDetailsContainer {
+        grid-template-rows: 190px 30px auto 65px;
+    }
+
+    .rightSide {
+        grid-column: 2/-2;
+        grid-row: auto;
+        background-color: rgba(0, 128, 0, 0.238);
+    }
+
+    .actionButtonSection {
+        grid-column: 1/11;
+        grid-row: 2/3;
+    }
+
+    .gameInformation {
+        grid-column: 11/-1;
+        grid-row: 1/2;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px){
+    .mainInformation{
+        grid-column: 1 / -1;
+        margin: 0 10px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .actionButtonContainer{
+        flex-direction: column;
+    }
+
+ .scoreContainer{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+}

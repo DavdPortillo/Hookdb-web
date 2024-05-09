@@ -1,0 +1,89 @@
+.topNews {
+    height: 100%;
+    width: 72%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    align-items: end;
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    background: linear-gradient(0deg, rgba(3,7, 18, 1) 0%, rgba(17, 24, 39, 0) 40%);
+    position: absolute;
+    top: 1px;
+}
+
+
+.title {
+    z-index: 4;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+
+
+.sasa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    border-radius: 3px;
+    transition: background-color 0.3s ease; /* Agrega esta línea */
+
+}
+
+.sasa:hover{
+    background-color: rgba(0, 0, 0, 0.168);
+
+}
+
+.title:hover ~ .sasa {
+    background-color: rgba(0, 0, 0, 0.168);
+    
+} 
+
+@media (max-width: 992px) {
+    .topNews {
+        height: auto;
+        min-height: 400px;
+        max-height: 435px;
+        width: 100%; 
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .topNews{
+        margin: 0 10px 0 10px;
+
+    }
+}

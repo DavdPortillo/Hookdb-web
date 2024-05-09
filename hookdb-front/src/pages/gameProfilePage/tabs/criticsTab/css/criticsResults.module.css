@@ -1,0 +1,9 @@
+.critics{
+    grid-column: 5 / -1;
+} 
+
+@media (max-width: 992px){
+    .critics{
+        grid-column: 1/-1;
+    }
+}

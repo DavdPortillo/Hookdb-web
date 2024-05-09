@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.53 21.53">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <g id="Ficha_de_juego" data-name="Ficha de juego">
+    <g id="Pestaña_DLCs" data-name="Pestaña DLCs">
+      <g id="Cuadro">
+        <path class="cls-1" d="m21.02,5.6l-12.15,12.13c-.5.5-1.31.5-1.8,0L.51,11.16c-.5-.5-.5-1.31,0-1.8l.02-.02c.5-.5,1.31-.5,1.8,0l5.68,5.68L19.22,3.8c.5-.5,1.31-.5,1.81,0h0c.5.5.49,1.31,0,1.8Z"/>
+        <rect class="cls-2" width="21.53" height="21.53"/>
+      </g>
+    </g>
+  </g>
+</svg>

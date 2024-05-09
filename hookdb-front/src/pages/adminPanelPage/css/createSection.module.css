@@ -1,0 +1,245 @@
+.newsInfoContainer {
+    grid-column: 2 / 3;
+    background-color: #212327;
+    border-radius: 8px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    margin: 0 0 18px;
+}
+
+.h1 {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.h1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    background-color: #004567;
+    margin-right: 10px;
+}
+
+.buttonActions {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.button {
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.newsInfo {
+    flex: 1;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-y: scroll;
+}
+
+.inputFile {
+    display: none;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(193, 193, 193);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profileImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.imageInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+.imageContainer {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 30px 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changePhotoContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.changePhotoContainer:hover {
+    background-color: #0000006f;
+    border-radius: 50%;
+}
+
+.changePhotoImage {
+    width: 50%;
+    height: 50%;
+}
+
+.hidePhotoImage {
+    display: none;
+}
+
+.inputInfoSection {
+    margin: 16px 0 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText{
+    min-width: 240px;
+    align-self: stretch;
+    flex: 1;
+}
+
+.gameFeatureContainer{
+    display: flex;
+    gap: 5px;
+     flex-wrap: wrap;
+}
+
+.productContainer{
+    display: block;
+}
+
+.addButton{
+    min-width: 100px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid rgb(208, 208, 208);
+    cursor: pointer;
+}
+
+.selectAvailability{
+    max-width: 100px;
+}
+
+.inputTitle {
+    padding: 0 0 5px;
+}
+
+.inputNewsSearch {
+    padding-left: 10px;
+    height: 30px;
+    min-height: 30px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(135, 135, 135);
+  /*   min-width: 250px;
+    align-self: stretch */
+}
+
+.select{
+    width: 150px;
+    min-width: none;
+}
+/*NEWS TAB*/
+
+.imageNewsContainer {
+    width: 100%;
+    margin: 30px 0 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(174, 174, 174);
+}
+
+.imageNews {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(193, 193, 193);
+    cursor: pointer;
+}
+
+.profileImageNews {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.changePhotoNewsContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changePhotoNewsContainer:hover {
+    background-color: #0000006f;
+}
+
+.textArea {
+    height: initial;
+}
+
+.addedItem.module.css {
+    display: flex;
+}
+
+.addedList {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
+
+.inputUserSearch {
+    padding: 5px 0 5px 10px;
+    height: 30px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+
+@media (max-width: 500px) {
+    .title {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-top: 10px;
+        flex: 1;
+    }
+}

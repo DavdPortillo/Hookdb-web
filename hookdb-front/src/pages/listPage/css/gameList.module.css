@@ -1,0 +1,121 @@
+.gameContainer {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px 10px 0px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+.gameContainer:hover {
+  background-color: rgb(17 24 39);
+}
+
+.gameContainer:hover .title {
+  transition: all 0.3s ease-in-out;
+  color: rgb(56 189 248);
+}
+
+.gameContainer:hover .year {
+  transition: all 0.3s ease-in-out;
+  color: rgb(56 189 248);
+}
+
+.numberList {
+  flex: 0;
+  font-size: 18px;
+}
+
+.gameContent {
+  flex: 1;
+
+  display: flex;
+  gap: 10px;
+}
+
+.imageContainer {
+  height: 120px;
+  width: 260px;
+}
+
+.gameImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.gameDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.ratingDescription {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ratingContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  font-size: 18px;
+}
+
+.ratingNumber {
+  font-size: 12px;
+  color: #bfbfbf;
+}
+
+.p {
+  margin: 0;
+  font-size: 13px;
+  color: #bfbfbf;
+}
+
+.aditionalInformation {
+  margin-top: auto;
+}
+
+.deleteGameButton {
+  background-color: transparent;
+  flex: 0;
+  margin-right: 4px;
+  filter: brightness(50%);
+  cursor: pointer;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.deleteGameButton:hover {
+  filter: brightness(100%);
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .closeContainer {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+  }
+
+  .gameContent {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,74 @@
+.suggestion{
+    height: 80px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    cursor: pointer;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 3.5fr 7.5fr 1fr;
+    transition: all 0.2s ease-in-out;
+
+    
+    position: relative; 
+}
+
+
+.suggestion:hover{
+    background-color: rgb(31 41 55);
+}
+
+.suggestion:nth-child(1){
+    border-radius: 8px 8px 0 0;
+}
+
+.suggestion:hover .title{
+    color: rgb(56 189 248);
+}
+
+.imageContainer{
+    padding: 8px 0 8px 10px;
+
+    max-height: 80px;
+    width: 100%;
+    grid-column: 1 / 2;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.descriptionContainer{
+    padding: 8px 0 8px 0;
+
+    grid-column: 2 / 3;
+}
+
+.addListContainer{
+    grid-column: 3 / 4;
+    display: grid;
+    place-content: center;
+    padding: 0 10px 0 0;
+
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(227, 227, 227);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.titleDescription{
+    font-size: 12px;
+    padding-top: 3px;
+    color: rgb(156 163 175);
+    margin: 0;
+}
+
+.addImage{
+    padding: 7px;
+}

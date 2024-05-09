@@ -1,0 +1,241 @@
+.critic {
+    width: 100%;
+    min-height: 220px;
+    background-color: var(--container-tertiary-bg);
+    margin: 0 0 20px;
+    border-radius: 3px;
+    padding: 10px;
+    gap: 20px;
+
+    display: grid;
+    grid-template-columns: 1.5fr 6fr;
+}
+
+.userInfo {
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userInfoContainer {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.userInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.usefulContainer {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userReview {
+    grid-column: 2 / -1;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.imageprofile {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.rating {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.p {
+    margin: 0;
+    font-size: 13px;
+    text-wrap: nowrap;
+}
+
+.rateContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonDescription {
+    font-size: 13px;
+}
+
+.thumbButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.thumbButton {
+    aspect-ratio: 1 / 1;
+    height: 25px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.rate {
+    height: 30px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--page-secondary-bgColor);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateNumber {
+    font-size: 20px;
+}
+
+.hr {
+    width: 100%;
+    height: 0.5px;
+    border: 0;
+    background-color: rgb(168, 168, 168);
+    margin: 6px 0;
+}
+
+.pReviews {
+    font-size: 14px;
+    text-wrap: pretty;
+}
+
+.date {
+    font-size: 12px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.criticInformation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBarContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.progressBar {
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(212, 212, 212);
+}
+
+.progressBarContent {
+    height: 100%;
+    background-color: rgb(82, 133, 73);
+}
+
+.progressBarDescription {
+    font-size: 12px;
+}
+
+.redButton {
+    border: 1px solid rgb(211, 74, 74);
+}
+
+
+
+.greenButton {
+    border: 1px solid rgb(74, 211, 83);
+    
+}
+
+@media (max-width: 768px) {
+    .rating {
+        justify-content: center;
+    }
+
+    .progressBarDescription,
+    .date {
+        text-wrap: nowrap;
+    }
+    .criticInformation {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .critic {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .criticInformation {
+        margin: 12px 0 0;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .progressBarContainer {
+        flex-wrap: wrap-reverse;
+        gap: 3px;
+    }
+
+    .pReviews {
+        line-break: anywhere;
+    }
+}

@@ -1,0 +1,54 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+    gap: 30px;
+    height: 100%;
+}
+     
+.titleSection {
+    font-size: 14px;
+    color: #848484;
+    padding-left: 10%;
+}
+
+.asideContainer{
+    overflow: auto;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.navItem {
+    background-color: transparent;
+    height: 50px;
+    padding-left: 15%;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navItem:hover {
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.navItemSelected {
+    background-color: #313131;
+}
+
+.navItemDescription {
+    margin: 0;
+    color: #848484;
+    text-align: start;
+}
+
+.hideAside{
+    display: none;
+}

@@ -1,0 +1,71 @@
+.filters{
+    grid-column: 1 / -1;
+    gap: 3px;
+    margin: 0 0 40px;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.filtersSpacing{
+    display: flex;
+    gap: 7px;
+}
+
+.alertButton{
+    font-size: 14px;
+    height: 30px;
+    margin-right: auto;
+    padding: 0 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.select{
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    min-width: 100px;
+    background-color: transparent;
+    border: #828282 1px solid;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 5px;
+}
+
+.option{
+    background-color: var(--page-primary-bgColor);
+
+}
+
+
+.cleanButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.activeOption{
+    background-color: #27303a;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 20px 0 0;
+}
+
+.title{
+    margin: 0;
+}

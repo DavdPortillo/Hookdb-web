@@ -1,0 +1,58 @@
+.lists {
+    position: absolute;
+    min-height: 150px;
+    min-width: 200px;
+    background-color: var(--page-primary-bgColor);
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0 5px 5px;
+    z-index: 2;
+    box-shadow: 10px 39px 62px 12px rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.closeButton {
+    position: absolute;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+.closeButton:hover {
+    opacity: 1;
+}
+
+.titleSection {
+    width: 100%;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.closeButtonContainer {
+    margin: 10px 0 5px;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+}

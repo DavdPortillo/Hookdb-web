@@ -1,0 +1,24 @@
+
+.text{
+    font-size: 12px;
+    margin: 0;
+}
+
+.description{
+    color: var(--text-terciaryColor);
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.requirementContainer{
+    display: flex;
+    margin: 5px 0;
+}
+
+@media (max-width: 600px){
+    .description{
+        width: 30%;
+    }
+}

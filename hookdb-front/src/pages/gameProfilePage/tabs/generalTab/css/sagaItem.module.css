@@ -1,0 +1,52 @@
+.gameItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    
+
+}
+
+.gameItem:hover{
+    background-color: #97b9e029;
+
+}
+
+.mainGameItem{
+    background-color: var(--container-tertiary-bg);
+    cursor: auto;
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+
+
+.mainGameItem:hover{
+    background-color: var(--container-tertiary-bg);
+}
+
+.name, .year{
+    margin: 0;
+}
+
+.name{
+    text-align: center;
+    font-size: 12px;
+}
+
+.hr{
+    width: 30%;
+    background-color: white;
+    border: none;
+    height: 0.5px;
+    margin: 12px 0;
+}
+
+.year{
+    font-size: 12px;
+}

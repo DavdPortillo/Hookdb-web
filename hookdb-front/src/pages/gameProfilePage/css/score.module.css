@@ -1,0 +1,101 @@
+.scoreType {
+    display: flex;
+    gap: 8px;
+    width: 33%;
+}
+
+.userScoreType {
+    width: 29%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    position: relative;
+    top: 0;
+}
+
+.userScoreType:hover {
+    background-color: #ffffff1f;
+    border-radius: 8px;
+}
+
+.score {
+    height: 42px;
+    width: 42px;
+    border: 1px solid white;
+    background-color: var(--secondary-container-bg);
+    padding: 5px;
+    border-radius: 8.5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    font-size: 12px;
+    margin: 0;
+}
+
+.dropdownSymbol {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #eaeaea; /* Puedes cambiar el color según tus necesidades */
+}
+
+.aa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cs {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 1200px) {
+    .userScoreType {
+        width: 33%;
+    }
+
+    .aa {
+        gap: 3px;
+        justify-content: space-between;
+    }
+
+    .userScoreText{
+        padding-left: 6px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+
+    .aa {
+        
+        justify-content: initial;
+    }
+
+}
+
+@media (max-width: 600px){
+    .scoreType{
+        width: 160px;
+        height: 42px;
+    }
+
+
+}

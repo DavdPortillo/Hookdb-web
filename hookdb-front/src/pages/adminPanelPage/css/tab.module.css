@@ -1,0 +1,114 @@
+.main {
+    padding: 10px 20px 10px;
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    overflow-y: hidden;
+}
+
+.container1 {
+    grid-column: 1 / 2;
+    background-color: #212327;
+    border-radius: 8px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: hidden;
+
+}
+
+.h1 {
+    font-size: 26px;
+    margin: 0 0 18px;
+    display: flex;
+    align-items: center;
+}
+
+.h1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    background-color: #004567;
+    margin-right: 10px;
+}
+
+.createNewsButton{
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.inputUserSearch {
+    padding-left: 30px;
+    height: 30px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+.userDescription{
+    display: grid;
+    grid-template-columns: 1.5fr 6.5fr 1.5fr;
+    gap: 2px;
+    margin-top: 10px;
+    padding: 0 10px 
+    
+}
+
+.itemDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #848484;
+}
+
+.hr{
+    height: 1px;
+    border: 0;
+    background-color: #848484;
+    width: 100%;
+    margin: 0;
+}
+
+.withScrollBar{
+    padding: 0 27px 0 10px;
+
+}
+
+.withoutScrollBar{
+    padding: 0 10px;
+}
+
+
+.userResult {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    scrollbar-color: #2e4a59 transparent;
+}
+
+@media (max-width: 1200px){
+    .main{
+
+        grid-template-columns: 3fr 3fr;
+
+    }
+
+    .container1{
+        max-height: 600px;
+    }
+}
+
+@media(max-width: 992px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}

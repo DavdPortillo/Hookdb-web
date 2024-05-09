@@ -1,0 +1,76 @@
+.list {
+    position: absolute;
+    background-color: #111827;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    z-index: 15;
+    padding: 5px;
+    
+}
+
+.createListSection {
+    display: flex;
+    gap: 5px;
+}
+
+.listChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.closeContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.warningText {
+    font-size: 13px;
+    color: rgb(159, 159, 159);
+}
+
+.inputText {
+    width: 100%;
+    border: 0;
+    height: 30px;
+    background-color: transparent;
+    /* border: 0.5px solid rgb(81, 81, 81); */
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+
+
+
+.inputText:focus {
+    outline: 0.5px solid rgb(90, 90, 90);    
+}
+
+.nameList {
+    justify-content: flex-start;
+    flex: 2.5;
+}
+
+.addButttonContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.addButtton {
+    padding: 5px 20px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.button{
+    background-color: transparent;
+    cursor: pointer;
+}

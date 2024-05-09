@@ -1,0 +1,53 @@
+.navigationPanel{
+    height: 500px;
+    border-right: 1px solid rgb(110, 110, 110);
+    padding: 30px 10px;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    height: 85px;
+}
+
+.navButton{
+    font-size: 14px;
+    text-align: end;
+}
+
+.logoutButton{
+    padding: 5px 10px;
+    border-color: rgb(182, 0, 0);
+    border-radius: 3px;
+    align-self: flex-end;
+
+}
+
+.logoutButton:hover{
+    background-color: rgba(182, 0, 0, 0.482);
+    border-color: rgba(255, 255, 255, 0.277);
+
+
+}
+
+@media (max-width: 768px){
+    .nav{
+        align-items: flex-start;
+    }
+
+    .navButton{
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .logoutButton{
+        align-self: flex-start;
+    }
+}

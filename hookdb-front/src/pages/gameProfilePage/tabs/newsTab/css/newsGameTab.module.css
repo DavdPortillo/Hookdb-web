@@ -1,0 +1,13 @@
+.newsItem{
+    grid-column: 5 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1200px){
+    .newsItem{
+        grid-column: 1 /-1;
+    }
+}

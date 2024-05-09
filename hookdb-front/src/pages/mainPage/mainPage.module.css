@@ -1,0 +1,24 @@
+.container{
+    height: 524px;
+    grid-column: 2 / -2;
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        height: auto;
+        min-height: 500px;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-column: 1 / -1;
+
+    }
+}

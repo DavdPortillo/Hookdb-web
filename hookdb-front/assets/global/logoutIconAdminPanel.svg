@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.66 22.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Panel_de_admin." data-name="Panel de admin.">
+    <g>
+      <polygon class="cls-1" points="6.2 9 6.2 5.08 0 11.27 6.11 17.38 6.11 13.34 14.77 13.34 14.77 8.93 6.2 9"/>
+      <path class="cls-1" d="m7.74,0v6.9h2.35V2.28h13.21v17.86h-13.21v-4.65h-2.35v6.92h17.93V0H7.74Z"/>
+    </g>
+  </g>
+</svg>

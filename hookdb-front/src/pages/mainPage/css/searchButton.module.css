@@ -1,0 +1,9 @@
+.searcher{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    background-color: transparent;
+    padding-right: 20px;
+
+}

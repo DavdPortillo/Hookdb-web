@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="WorkSpace" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-1.83" y="8.77" width="23.66" height="2.45" rx="1.23" ry="1.23" transform="translate(10 -4.14) rotate(45)"/>
+  <rect class="cls-1" x="-1.83" y="8.77" width="23.66" height="2.45" rx="1.23" ry="1.23" transform="translate(24.14 10) rotate(135)"/>
+</svg>

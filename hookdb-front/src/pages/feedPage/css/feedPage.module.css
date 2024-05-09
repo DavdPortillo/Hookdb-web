@@ -1,0 +1,44 @@
+.title{
+    grid-column: 2 / -2;
+    font-size: 24px;
+    margin: 16px 0 20px;
+}
+
+.hr{
+    grid-column: 2 / 11;
+
+    height: 1px;
+    border: 0;
+    background-color: rgb(88, 88, 88);
+}
+
+.container{
+    grid-column: 2 / 11;
+    min-height: 500px;
+
+}
+
+.noNewswarning{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .title{
+        grid-column: 1/-1;
+        margin: 16px 10px 20px;
+    }
+
+    .hr{
+        grid-column: 1 / -1;
+    
+        margin: 0 10px 0;
+
+    }
+
+    .container{
+        grid-column: 1 / -1;
+        margin: 0 10px 0;
+
+    }
+}

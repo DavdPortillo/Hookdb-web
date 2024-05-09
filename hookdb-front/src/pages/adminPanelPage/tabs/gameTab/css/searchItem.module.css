@@ -1,0 +1,39 @@
+.item{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: 30px;
+    width: 40%;
+}
+
+.itemName, .buttonContainer{
+    flex: 1;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: flex-end;
+    height: 70%;
+    
+}
+
+.addButton{
+    color: white;
+    background-color: #37393d;
+    font-size: 13px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.itemName{
+    font-size: 14px;
+}
+
+.input{
+    background-color: transparent;
+    border: 1px solid #606369;
+    border-radius: 3px;
+}

@@ -1,0 +1,23 @@
+.h1 {
+    grid-column: 1 / 16;
+    font-size: 30px;
+    margin: 20px 0 0;
+}
+
+.hr{
+    grid-column: 1 / 16;
+
+    height: 1px;
+    border: 0;
+    margin: 0;
+    margin: 16px 0 0;
+    background-color: rgb(88, 88, 88);
+}
+
+.container {
+    grid-column: 2 / -2;
+
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}

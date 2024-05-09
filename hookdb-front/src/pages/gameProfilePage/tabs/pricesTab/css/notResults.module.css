@@ -1,0 +1,12 @@
+.div{
+    grid-column: 1 /-1;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}

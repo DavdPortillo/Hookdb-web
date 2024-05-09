@@ -1,0 +1,52 @@
+.stadistics {
+    grid-column: 2 / 3;
+    background-color: #212327;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 26px;
+    margin: 0 0 18px;
+    display: flex;
+    align-items: center;
+}
+
+.h1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    background-color: #004567;
+    margin-right: 10px;
+}
+
+.subscriberContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0 15px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #37393d;
+    gap: 10px;
+    justify-content: center;
+    height: 100px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+
+.informationDescription{
+    font-size: 16px;
+    margin: 0;
+}
+
+.informationResult{
+    font-size: 28px;
+    margin: 0;
+}

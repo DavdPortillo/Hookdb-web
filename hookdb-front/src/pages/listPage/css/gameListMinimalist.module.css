@@ -1,0 +1,183 @@
+.game {
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #333;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.game:hover {
+  background-color: #1f262d71;
+  border-radius: 3px;
+}
+
+.game:hover {
+  background-color: rgb(17 24 39);
+}
+
+.game:hover .title {
+  transition: all 0.3s ease-in-out;
+  color: rgb(56 189 248);
+}
+
+.game:hover .year {
+  transition: all 0.3s ease-in-out;
+  color: rgb(56 189 248);
+}
+
+.numberList {
+  flex: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 5px;
+}
+
+.gameContent {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageContainer {
+  height: 90px;
+  width: 190px;
+  aspect-ratio: 16 / 9;
+}
+
+.gameImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.gameDescription {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 0.5fr;
+}
+
+.linkContainer {
+  margin-top: 3px;
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
+.ratingDescription {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ratingContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 3px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  font-size: 18px;
+}
+
+.ratingNumber {
+  font-size: 12px;
+  color: #bfbfbf;
+}
+
+.deleteGameButton {
+  background-color: transparent;
+  flex: 0;
+  margin-right: 4px;
+  filter: brightness(50%);
+  cursor: pointer;
+  display: flex;
+}
+
+.deleteGameButton:hover {
+  filter: brightness(100%);
+}
+
+.deleteButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0;
+}
+
+.p {
+  margin: 0;
+  font-size: 13px;
+  color: #bfbfbf;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .gameContent {
+    flex-direction: column;
+  }
+
+  .numberList {
+    align-items: flex-start;
+  }
+
+  .deleteButtonContainer {
+    position: absolute;
+    right: 0;
+    padding: 5px;
+  }
+
+  .imageContainer {
+    height: 100px;
+  }
+
+  .gameImage {
+    filter: brightness(50%);
+  }
+
+  .deleteGameButton {
+    filter: brightness(100%);
+  }
+
+  .linkContainer {
+    font-size: 14px;
+  }
+
+  .p,
+  .linkContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .p {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .gameDescription {
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-rows: 1fr auto auto;
+  }
+
+  .ratingDescription {
+    grid-column: 2 / 3;
+    grid-row: 1/4;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .p {
+    justify-content: flex-start;
+  }
+}

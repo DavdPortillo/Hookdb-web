@@ -1,0 +1,61 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.307);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 20;
+    display: none;
+
+
+}
+
+.tooltip{
+    background-color: var(--page-primary-bgColor);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    
+}
+
+.closeButton{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+.closeButtonContainer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px){
+    .modal{
+        display: block;
+    } 
+
+    .tooltip{
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 600px){
+    .modal{
+        display: block;
+    } 
+
+    .tooltip{
+        width: 60%;
+    }
+}

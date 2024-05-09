@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.88 25.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Panel_de_admin." data-name="Panel de admin.">
+    <path class="cls-1" d="m11.44,11.44c3.16,0,5.72-2.56,5.72-5.72S14.6,0,11.44,0s-5.72,2.56-5.72,5.72,2.56,5.72,5.72,5.72Zm0,2.86c-4.5,0-8.74,2.12-11.44,5.72,2.7,3.6,6.94,5.72,11.44,5.72,4.5,0,8.74-2.12,11.44-5.72-2.7-3.6-6.94-5.72-11.44-5.72Z"/>
+  </g>
+</svg>

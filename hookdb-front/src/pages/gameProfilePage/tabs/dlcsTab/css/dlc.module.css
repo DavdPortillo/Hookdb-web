@@ -1,0 +1,107 @@
+.dlcContainer{
+    width: 100%;
+    height: 175px;
+    display: grid;
+    grid-template-columns: 2.5fr 6fr;
+    margin: 0 0 15px;
+    overflow: hidden;
+    background-color: #27303A;
+    border-radius: 3px;
+}
+
+.imageContainer{
+    grid-column: 1 / 2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainerFlexible{
+    align-items: start;
+
+}
+
+.image{
+    height: 152px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.dlcInfo{
+    grid-column: 2 / 3;
+    margin: 5px 10px 5px;    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.dlcInfoFlexible{
+
+    justify-content: space-between;
+}
+
+.dlcTitle{
+    font-size: 20px;
+    margin: 6px 0 6px;
+    padding: 0;
+
+}
+
+.dlcContent {
+    font-size: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.readMoreButton{
+
+ 
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.readMoreContainer{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.dlcContentNotTrucated{
+    -webkit-line-clamp: initial;
+}
+
+.dlcContainerFlexible{
+    height: auto;
+}
+
+.br{
+    line-height: 0.5;
+}
+
+@media (max-width: 992px){
+    .dlcContainer{
+        grid-template-columns: 3fr 6fr;
+    }
+}
+
+@media (max-width: 768px){
+    .dlcContainer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+

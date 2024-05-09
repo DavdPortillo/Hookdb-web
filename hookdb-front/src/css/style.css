@@ -1,0 +1,89 @@
+:root {
+    --page-primary-bgColor: rgb(3 7 18);
+    --page-secondary-bgColor: #161b22;
+
+    --text-primaryColor: white;
+    --text-terciaryColor: #606060;
+
+    --container-secondary-bg: rgb(17 24 39);
+    --container-tertiary-bg: #27303a;
+}
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(23, 31, 41);
+  }
+  
+  /* Handle */
+  
+  ::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(117, 119, 121);
+  }
+
+body {
+    background-color: var(--page-primary-bgColor);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(12, 105px) 1.5fr;
+    
+}
+
+
+
+.gridLine {
+    height: 0.1px;
+    grid-column: 1/-1;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3px;
+ }
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr repeat(10, minmax(99px, 1fr)) 1fr;
+/*         background-color: rgba(94, 195, 187, 0.489);
+ */    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        grid-template-columns: 1fr repeat(10, minmax(77px, 1fr)) 1fr;
+/*         background-color: rgba(94, 195, 94, 0.489);
+ */    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+/*         background-color: rgba(195, 183, 94, 0.489);
+ */    }
+}
+
+@media (max-width: 600px) {
+    .container {
+/*         background-color: rgba(195, 99, 94, 0.489);
+ */    }
+}

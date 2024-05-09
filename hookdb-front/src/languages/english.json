@@ -1,0 +1,868 @@
+{
+    "language": "en",
+    "code": 2,
+    "header": {
+        "identify": "Log in",
+        "myScores": "Scores",
+        "myLists": "Lists",
+        "settings": "Settings",
+        "signOut": "Log out",
+        "searchInput": "Search"
+    },
+    "mainPage": {
+        "upcomingReleases": "Upcoming releases",
+        "popularTabText": "Popular",
+        "newReleasesTabText": "New releases",
+        "seeAllButton": "See all",
+        "latestNewsH2": "Latest news"
+    },
+    "gameProfilePage": {
+        "addToListButton": "Add to list",
+        "ignoredButton": "Ignored",
+        "ignoreButton": "Ignore",
+        "followingButton": "Following",
+        "followButton": "Follow",
+        "distributor": "Distributor",
+        "developer": "Developer",
+        "platform": "Platform",
+        "overallScore": "Overall score",
+        "recentScore": "Recent score",
+        "votes": "votes",
+        "notPlayed": "Not played",
+        "played": "Played",
+        "storyTime": "Story",
+        "CompletionTime": "Completion",
+        "tabNames": ["general", "prices", "critics", "dlcs", "news"],
+        "generalTab": {
+            "sipnosis": "Sipnosis",
+            "generalInformation": "General information",
+            "systemRequirements": "System requirements",
+            "operatingSystem": "OS",
+            "processor": "Processor",
+            "RAM": "RAM",
+            "graphics": "Graphics",
+            "directX": "DirectX",
+            "storage": "Storage",
+            "featuresTitle": "Features",
+            "seriesGamesTitle": "Series games",
+            "minimumRequirements": "Minimum requirements",
+            "recommendedRequirements": "Recommended requirements",
+            "languagesTitle": "Languages",
+            "interfaceColumn": "Interface",
+            "VoiceColumn": "Voices",
+            "subtitlesColumn": "Subtitles"
+
+        },
+        "pricesTab": {
+            "region": "Region",
+            "platform": "Platform",
+            "edition": "Edition",
+            "productType": "Product type",
+            "lowestToHighest": "Price from lowest to highest",
+            "highesttoLowest": "Price from highest to lowest",
+            "vendor": "Vendor",
+            "price": "Price",
+            "visitSellerButton": "Visit seller"
+        }
+    },
+    "adminPanelPage": {
+        "role": "Administrator",
+        "mainMenu": "Main menu",
+        "settings": "Settings",
+        "logOut": "Log out",
+        "nameTabs": {
+            "users": "Users",
+            "games": "Games",
+            "news": "News",
+            "platforms": "Platforms",
+            "genres": "Genres",
+            "languages": "Languages",
+            "developers": "Developers",
+            "distributors": "Distributors",
+            "features": "Features",
+            "productPlatforms": "Product Platforms",
+            "productVendors": "Product vendors",
+            "productKeys": "Product keys",
+            "productRegions": "Product regions",
+            "productEditions": "Product editions",
+            "dlcs": "DLCs",
+            "numberPlayer": "Number of players"
+        },
+        "userTab": {
+            "title": "Users",
+            "inputSearch": "Enter text here...",
+            "dropdownOptions": ["Id", "User", "Email"],
+            "listColumns": {
+                "id": "Id",
+                "username": "Username",
+                "email": "Email",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit user",
+                "fields": {
+                    "username": "Username",
+                    "email": "Email",
+                    "country": "Country",
+                    "year": "Year",
+                    "language": {
+                        "language": "Language",
+                        "english": "English",
+                        "spanish": "Spanish"
+                    },
+                    "role": {
+                        "role": "User role",
+                        "admin": "Administrator",
+                        "user": "User"
+                    }
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save"
+        },
+        "newsTab": {
+            "title": "News",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit news",
+                "fields": {
+                    "imageAlt": "Image alt",
+                    "headline": "Headline",
+                    "content": "Content",
+                    "subtitle": "Subtitle"
+                }
+            },
+            "create": {
+                "title": "Create news",
+                "fields": {
+                    "imageAlt": "Image alt",
+                    "headline": "Headline",
+                    "content": "Content",
+                    "subtitle": "Subtitle"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createNews": "Create news"
+        },
+        "platformTab": {
+            "title": "Platforms",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit platform",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create platform",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createPlatform": "Create Platform"
+        },
+        "genreTab": {
+            "title": "Genres",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit genre",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create genre",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createGenre": "Create Genre"
+        },
+        "languageTab": {
+            "title": "Languages",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit language",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create language",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createLanguage": "Create Language"
+        },
+        "developerTab": {
+            "title": "Developers",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit developer",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create developer",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createDeveloper": "Create Developer"
+        },
+        "distributorTab": {
+            "title": "Distributors",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit distributor",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create distributor",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createDistributor": "Create Distributor"
+        },
+        "featureTab": {
+            "title": "Features",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit feature",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+                }
+            },
+            "create": {
+                "title": "Create feature",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createFeature": "Create Feature"
+        },
+        "productKeyTab": {
+            "title": "Product keys",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit product key",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create product key",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createProductKey": "Create Product key"
+        },
+        "productRegionTab": {
+            "title": "Product regions",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit product region",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create product region",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createProductRegion": "Create Product region"
+        },
+        "productEditionTab": {
+            "title": "Product editions",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit product edition",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create product edition",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createProductEdition": "Create Product edition"
+        },
+        "productPlatformTab": {
+            "title": "Product platforms",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit product platform",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+                }
+            },
+            "create": {
+                "title": "Create product platform",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createProductPlatform": "Create Product platform"
+        },
+        "productVendorTab": {
+            "title": "Product vendors",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit product vendor",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+                }
+            },
+            "create": {
+                "title": "Create product vendor",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createProductVendor": "Create Product vendor"
+        },
+        "dlcTab": {
+            "title": "Dlcs",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit dlc",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt",
+                    "sinopsis": "Sinopsis",
+                    "date": "Date",
+                    "gameId": "Game id"
+                }
+            },
+            "create": {
+                "title": "Create dlc",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt",
+                    "sinopsis": "Sinopsis",
+                    "date": "Date",
+                    "gameId": "Game id"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createDlc": "Create Dlc"
+        },
+        "numberPlayersTab": {
+            "title": "Number of players",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Number",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit number of players",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "create": {
+                "title": "Create number of players",
+                "fields": {
+                    "name": "Name"
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createNumberPlayers": "Create Number of players"
+        },
+        "gameTab": {
+            "title": "Games",
+            "inputSearch": "Enter text here...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions"
+            },
+            "edit": {
+                "title": "Edit dlc",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt",
+                    "sinopsis": "Sinopsis",
+                    "date": "Date",
+                    "gameId": "Game id"
+                }
+            },
+            "create": {
+                "title": "Create game",
+                "fields": {
+                    "name": "Name",
+                    "imageAlt": "Image alt",
+                    "title": "Title",
+                    "trailer": "Trailer",
+                    "date": "Date",
+                    "storyTime": "Story time",
+                    "completeTime": "Complete time",
+                    "sinopsis": "Sinopsis",
+                    "platform": "Platform",
+                    "genre": "Genre",
+                    "developer": "Developer",
+                    "distributor": "Distributor",
+                    "minimumProcessor": "Processor [Minimun requirements]",
+                    "minimumRam": "Ram [Minimun requirements]",
+                    "minimumGraphicsCard": "Graphics card [Minimun requirements]",
+                    "minimumDirectX": "Direct X [Minimun requirements]",
+                    "minimumStorage": "Storage [Minimun requirements]",
+                    "minimumOperatingSystem": "Operating system [Minimun requirements]",
+                    "recommendedProcessor": "Processor [Recommended requirements]",
+                    "recommendedRam": "Ram [Recommended requirements]",
+                    "recommendedGraphicsCard": "Graphics card [Recommended requirements]",
+                    "recommendedDirectX": "Direct X [Recommended requirements]",
+                    "recommendedStorage": "Storage [Recommended requirements]",
+                    "recommendedOperatingSystem": "Operating system [Recommended requirements]",
+                    "gameFeature": "Game features",
+                    "availabilities": "Availabilities",
+                    "product": {
+                        "product": "Product"
+                    }
+                }
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save",
+            "publishButton": "Publish",
+            "createGame": "Create Game"
+        }
+    },
+
+    "modals": {
+        "authentication": {
+            "logIn": {
+                "logInH2": "Log in",
+                "emailInput": "User or email",
+                "passwordInput": "Password",
+                "rememberMeInThisPC": "Remember me on this PC",
+                "forgotPassword": "Forgot password",
+                "accessButton": "Access",
+                "orSeparator": "or",
+                "accessGoogleButton": "Sign in with Google",
+                "dontHaveAcountText": "Don't have an account?",
+                "signInLink": "Sign up"
+            },
+            "signIn": {
+                "signInH2": "Sign up",
+                "userInput": "Username",
+                "emailInput": "Email",
+                "passwordInput": "Password",
+                "confirmPasswordInput": "Confirm password",
+                "acceptTermsAndConditionsCheckbox": "I accept the terms and conditions",
+                "createAccountButton": "Create account",
+                "haveAcountText": "Do you have an account?",
+                "logInLink": "Log in"
+            }
+        }
+    },
+    "userProfilePage": {
+        "asideSection": {
+            "generalInformationLink": "General information",
+            "personalInformationLink": "Account",
+            "followedGamesLink": "Followed",
+            "ignoredGamesLink": "Ignored",
+            "logOutButton": "Log out"
+        },
+        "generalInformationTab": {
+            "tabTitle": "General information",
+            "tabDescription": "In the account settings section, you'll find tools that allow you to modify information related to your profile. This space is designed for you to manage data such as the username and the image associated with your account conveniently. Explore the available options to make adjustments according to your specific needs.",
+            "profileSection": {
+                "title": "Profile",
+                "changeImageButton": "Change",
+                "altUserImage": "User profile picture",
+                "usernameLabel": "Username",
+                "emailLabel": "Email",
+                "passwordButton": "Change password",
+                "changePasswordModal":{
+                    "title": "You are going to change your password",
+                    "description": "You must enter your password to confirm",
+                    "oldPasswordLabel": "Previous password",
+                    "newPasswordLabel": "New password",
+                    "repeatNewPasswordLabel": "Repeat new password",
+                    "cancelButton": "Cancel",
+                    "confirmButton": "Confirm"
+
+                },
+                "changeEmailModal":{
+                    "title": "You are going to change your email",
+                    "description": "You must enter your password to confirm",
+                    "cancelButton": "Cancel",
+                    "confirmButton": "Confirm"
+
+                }
+            },
+            "personalInformationSection": {
+                "title": "Personal information",
+                "countryLabel": "Country",
+                "genderLabel": "Gender",
+                "genreOptions": {
+                    "masculine": "Masculine",
+                    "feminine": "Feminine",
+                    "other": "Other"
+                },
+                "yearLabel": "Year of birth",
+                "languageLabel": "Language",
+                "languageOptions": {
+                    "spanish": "Spanish",
+                    "english": "English"
+                }
+            },
+            "followedGamesSection": {
+                "title": "Followed games",
+                "description": "In this section, you can check which games you're following and also have the ability to unfollow them if you wish."
+            },
+            "ignoredGamesSection": {
+                "title": "Ignored games",
+                "description": "In this section, you can check which games you're ignoring and also have the ability to stop ignoring them if you wish."
+            },
+            "cancelButton": "Cancel",
+            "saveButton": "Save"
+        },
+        "accountTab": {
+            "tabTitle": "Account",
+            "tabDescription": "In this section, you can temporarily deactivate your account or permanently delete it if you wish. If you choose to deactivate your account, you'll be able to reactivate it at any time and retrieve your previous information. If you prefer to permanently delete your account, please note that this will remove all your data irreversibly.",
+            "deleteAccount": {
+                "title": "Delete account",
+                "description": "To delete your account, you must enter your username in the text field. Remember that once the account is deleted, you will lose all your data.",
+                "deleteInput": "Enter your username",
+                "deleteAccountButton": "Delete account"
+            }
+        }
+    },
+    "listPage": {
+        "title": "Lists",
+        "createListButton": "Create list",
+        "subtitle": "My lists",
+        "listOptions": {
+            "renameButton": "Rename",
+            "deleteButton": "Delete"
+        },
+        "listDescription": {
+            "description": "Add a description here...",
+            "dateCreated": "Created",
+            "lastModified": "Last modified"
+        },
+        "filterOptions": {
+            "releaseDate": "Release date",
+            "rating": "Rating",
+            "alphabetical": "Alphabetical"
+        },
+        "warnings":{
+            "noLists": "No lists created",
+            "noOpenList": "There are no open lists"
+        },
+        "deleteModal":{
+            "title": "You are going to delete a list",
+            "description": "Are you sure you want to delete the list? The games it contains will also be removed",
+            "cancelButton": "Cancel",
+            "deleteButton": "Delete"
+        },
+        "createListTooltip":{
+            "listNamePlaceholder": "Name of the list",
+            "addButton": "Add"
+        }
+    },
+    "feedPage": {
+        "title": "My feed",
+        "warnings": {
+            "noExistsNews": "There are no new news"
+        }
+    },
+    "searchResultPage":{
+        "title": "Results for",
+        "description": "matches",
+        "displayFilter": "Display by"
+    },
+    "tooltips": {
+        "searchSuggestions": {
+            "viewAllResultsButton": "View all results"
+        }
+    },
+    "warnings":{
+        "success":{
+            "login": "Successful login",
+            "deleteDeveloper": "The developer has been successfully deleted",
+            "createDeveloper": "The developer was successfully created",
+            "editDeveloper": "The developer was successfully edited",
+            "deleteDistributor": "The distributor has been successfully deleted",
+            "createDistributor": "The distributor was successfully created",
+            "editDistributor": "The distributor was successfully edited",
+            "deleteDlc": "The DLC has been successfully deleted",
+            "createDlc": "The DLC for the game was successfully created",
+            "editDlc": "The DLC for the game was successfully edited",
+            "deleteProductEdition": "The product edition has been successfully deleted",
+            "createProductEdition": "The product edition was successfully created",
+            "editProductEdition": "The product edition was successfully edited",
+            "deleteFeature": "The feature has been successfully deleted",
+            "createFeature": "The feature was successfully created",
+            "editFeature": "The feature was successfully edited",
+            "deleteGenre": "The genre has been successfully deleted",
+            "createGenre": "The genre was successfully created",
+            "editGenre": "The genre was successfully edited",
+            "deleteLanguage": "The language has been successfully deleted",
+            "createLanguage": "The language was successfully created",
+            "editLanguage": "The language was successfully edited",
+            "deleteNews": "The news has been successfully deleted",
+            "createNews": "The news was successfully created",
+            "editNews": "The news was successfully edited",
+            "deleteNumberPlayers": "The number of players has been successfully deleted",
+            "createNumberPlayers": "The number of players was successfully created",
+            "editNumberPlayers": "The number of players was successfully edited",
+            "deletePlatform": "The platform has been successfully deleted",
+            "createPlatform": "The platform was successfully created",
+            "editPlatform": "The platform was successfully edited",
+            "deleteProductKey": "The product key has been successfully deleted",
+            "createProductKey": "The product key was successfully created",
+            "editPlatformKey": "The product key was successfully created",
+            "deleteProductPlatform": "The product platform has been successfully deleted",
+            "createProductPlatform": "The product platform was successfully created",
+            "editProductPlatform": "The product platform was successfully edited",
+            "deleteProductVendor": "The product vendor has been successfully deleted",
+            "createProductVendor": "The product vendor was successfully created",
+            "editProductVendor": "The product vendor was successfully edited",
+            "deleteProductRegion": "The product region has been successfully deleted",
+            "createProductRegion": "The product region was successfully created",
+            "editProductRegion": "The product region was successfully edited",
+            "deleteUSer": "User has been successfully deleted",
+            "editUser": "User edited successfully",
+            "voteReview": "You have voted on a review",
+            "removeVoteReview": "You have removed your vote from the review",
+            "createList": "List created successfully"
+        },
+        "error":{
+            "login": "Incorrect username or password",
+            "acceptTerms": "You must accept the terms and conditions",
+            "signUpError": "There was an issue with the registration",
+            "usernameEmpty": "The username cannot be empty",
+            "usernameFirstLetter": "The username must start with a letter",
+            "usernameCharacters": "The username must be at least 3 characters long and can only contain letters, numbers, or underscores",
+            "emailEmpty": "The email cannot be empty",
+            "emailValid": "Please enter a valid email address",
+            "passwordEmpty": "The password cannot be empty",
+            "passwordCharacters": "The password cannot have fewer than 6 characters",
+            "passwordSymbol": "The password must contain at least one special character",
+            "passwordNumber": "The password must contain at least one number",
+            "passwordMatch": "The passwords do not match",
+            "searchByName": "Failed to search by name",
+            "developerRetrieve": "Failed to retrieve all developers",
+            "developerInfoRetrieve": "Failed to retrieve developer information",
+            "developerDelete":  "Failed to delete the developer",
+            "developerCreate": "Failed to create the developer",
+            "developerNameFieldEmpty": "The developer's name cannot be empty",
+            "developerEdit": "An error occurred while editing the developer",
+            "distributorRetrieve": "Failed to retrieve all distributors",
+            "distributorInfoRetrieve": "Failed to retrieve distributor information",
+            "distributorDelete":  "Failed to delete the distributor",
+            "distributorEdit": "An error occurred while editing the distributor",
+            "distributorNameFieldEmpty": "The distributor's name cannot be empty",
+            "dlcRetrieve": "Failed to retrieve all dlcs",
+            "dlcInfoRetrieve": "Failed to retrieve dlc information",
+            "dlcDelete":  "Failed to delete the dlc",
+            "dlcCreate": "An error occurred while creating the game's DLC",
+            "nameEmpty": "The name cannot be empty",
+            "altImageEmpty": "The image alt text cannot be empty",
+            "imageEmpty": "The image cannot be empty",
+            "sinopsisEmpty": "The news synopsis cannot be empty",
+            "dateEmpty": "The date cannot be empty",
+            "idGameEmpty": "The game ID cannot be empty",
+            "idGameNumber": "The game ID must be a number",
+            "dlcEdit": "An error occurred while editing the game's DLC",
+            "featureRetrieve": "There was an error retrieving all features",
+            "featureInfoRetrieve": "Failed to retrieve feature information",
+            "featureDelete":  "Failed to delete the feature",
+            "featureCreate": "An error occurred while creating the feature",
+            "featureEdit": "An error occurred while editing the feature",
+            "languageRetrieve": "There was an error retrieving all languages",
+            "languageInfoRetrieve": "Failed to retrieve language information",
+            "languageDelete":  "Failed to delete the language",
+            "languageCreate": "An error occurred while creating the language",
+            "languageEdit": "An error occurred while editing the language",
+            "genreRetrieve": "There was an error retrieving all genres",
+            "genreInfoRetrieve": "Failed to retrieve genre information",
+            "genreDelete":  "Failed to delete the genre",
+            "genreCreate": "An error occurred while creating the genre",
+            "genreEdit": "An error occurred while editing the genre",
+            "newsRetrieve": "There was an error retrieving all news",
+            "newsInfoRetrieve": "Failed to retrieve news information",
+            "newsDelete":  "Failed to delete the news",
+            "newsCreate": "An error occurred while creating the news",
+            "newsEdit": "An error occurred while editing the news",
+            "titleEmpty": "The news title cannot be empty",
+            "contentEmpty": "The news content cannot be empty",
+            "subtitleEmpty": "The news subtitle cannot be empty",
+            "numberPlayersRetrieve": "There was an error retrieving all number of players",
+            "numberPlayersInfoRetrieve": "Failed to retrieve number of player information",
+            "numberPlayersDelete":  "Failed to delete the number of player",
+            "numberPlayersCreate": "An error occurred while creating the number of player",
+            "numberPlayersEdit": "An error occurred while editing the number of player",
+            "numberPlayersByNumber": "There was an error searching for the number of players by number",
+            "beANumber": "It must be a number",
+            "platformRetrieve": "There was an error retrieving all platforms",
+            "platformInfoRetrieve": "Failed to retrieve platform information",
+            "platformDelete":  "Failed to delete the platform",
+            "platformCreate": "An error occurred while creating the platform",
+            "platformEdit": "An error occurred while editing the platform",
+            "productKeyRetrieve": "There was an error retrieving all product keys",
+            "productKeyInfoRetrieve": "Failed to retrieve product key information",
+            "productKeyDelete":  "Failed to delete the product key",
+            "productKeyCreate": "An error occurred while creating the product key",
+            "productKeyEdit": "An error occurred while editing the product key",
+            "productPlatformRetrieve": "There was an error retrieving all product platforms",
+            "productPlatformInfoRetrieve": "Failed to retrieve product platform information",
+            "productPlatformDelete":  "Failed to delete the product platform",
+            "productPlatformCreate": "An error occurred while creating the product platform",
+            "productPlatformEdit": "An error occurred while editing the product platform",
+            "productVendorRetrieve": "There was an error retrieving all product vendors",
+            "productVendorInfoRetrieve": "Failed to retrieve product vendor information",
+            "productVendorDelete":  "Failed to delete the product vendor",
+            "productVendorCreate": "An error occurred while creating the product vendor",
+            "productVendorEdit": "An error occurred while editing the product vendor",
+            "productRegionRetrieve": "There was an error retrieving all product regions",
+            "productRegionInfoRetrieve": "Failed to retrieve product region information",
+            "productRegionDelete":  "Failed to delete the product region",
+            "productRegionCreate": "An error occurred while creating the product region",
+            "productRegionEdit": "An error occurred while editing the product region",
+            "userRetrieve": "There was an error retrieving all users",
+            "userInfoRetrieve": "Failed to retrieve user information",
+            "userDelete":  "Failed to delete the user",
+            "userCreate": "An error occurred while creating the user",
+            "userEdit": "An error occurred while editing the user",
+            "userFindByField": "There was an error retrieving users by the specified field",
+            "countryField": "The 'country' field must be empty or contain between 2 and 50 characters",
+            "yearField": "The 'year' field must be between 1900 and 2099",
+            "voteYourself": "You cannot vote on your own review",
+            "incorrectOldPassword": "The old password is incorrect",
+            "oldPasswordEmpty": "The old password cannot be empty",
+            "newPasswordMatch": "The new passwords do not match",
+            "listNameEmpty": "The name of the list cannot be empty",
+            "listNameNotNumber": "The list cannot be a number",
+            "listNameLength": "The list must have between 2 and 40 characters",
+            "listNameExist": "The list name already exists",
+            "allFieldsFilled": "All fields must be filled in",
+            "languageNotExist": "The language does not exist",
+            "featureNotExist": "The feature does not exist"
+        }
+    }
+}

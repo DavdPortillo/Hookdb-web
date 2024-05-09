@@ -1,0 +1,159 @@
+.main {
+    padding: 10px 20px 10px;
+
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    gap: 20px;
+    overflow-y: hidden;
+}
+
+.container1 {
+    grid-column: 1 / 2;
+    background-color: #212327;
+    border-radius: 8px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: hidden;
+
+}
+
+.h1 {
+    font-size: 26px;
+    margin: 0 0 18px;
+    display: flex;
+    align-items: center;
+}
+
+.h1::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 40px;
+    background-color: #004567;
+    margin-right: 10px;
+}
+
+.searcher{
+    width: 100%;
+    position: relative;
+}
+
+.inputUserSearch {
+    padding-left: 30px;
+    height: 30px;
+    border-radius: 3px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(135, 135, 135);
+}
+
+.userResult {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    scrollbar-color: #2e4a59 transparent;
+}
+
+
+
+
+
+.userDescription{
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 4fr 1.5fr;
+    gap: 2px;
+    margin-top: 10px;
+    padding: 0 10px 
+    
+}
+
+.withScrollBar{
+    padding: 0 27px 0 10px;
+
+}
+
+.withoutScrollBar{
+    padding: 0 10px;
+}
+
+
+.itemDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #848484;
+}
+
+.mainSearch {
+    position: relative;
+}
+
+.selectByType{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid rgb(135, 135, 135);
+    height: 100%;
+    width: 100px;
+    background-color: rgb(48, 69, 98);
+}
+
+.hr{
+    height: 1px;
+    border: 0;
+    background-color: #848484;
+    width: 100%;
+    margin: 0;
+}
+
+.filters{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filterItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+
+    background-color: rgb(43, 51, 62);
+}
+
+.filterContainer{
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 3px;
+}
+
+.filterItem:hover{
+    background-color: rgb(63, 90, 128);
+    cursor: pointer;
+    
+}
+
+
+@media (max-width: 992px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .userDescription{
+        display: none;
+    }
+}
+

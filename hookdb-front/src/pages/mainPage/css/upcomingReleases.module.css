@@ -1,0 +1,77 @@
+.container{
+    height: 100%;
+    width: 28.5%;
+    margin-left: auto;
+    border-radius: 9px;
+    background-color: rgb(17 24 39);
+    padding: 12px;
+}
+
+.title{
+  
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hr{
+
+    width: 40%;
+    margin: 0 auto;
+}
+
+.buttonListSection{
+    margin: 15px 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button{
+
+    width: 100%;
+    padding: 2.5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.2s ease-in-out;
+    font-size: 15.3px;
+    font-weight: 500;
+}
+
+.upcomingReleasesSection{
+    width: 100%;
+    gap: 10px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moreButton{
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .container {
+        height: auto;
+        min-height: 400px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 10px 0 10px;
+
+    }
+}

@@ -1,0 +1,86 @@
+.adminContainer {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 18fr;
+    grid-template-rows: 64px 1fr;
+    background-color: #090b0f;
+    gap: 10px;
+}
+
+.buttonContainer{
+    margin: 10px 20px 10px;
+}
+
+.buttonAside{
+    height: 30px;
+    width: 100%;
+}
+
+
+
+
+
+
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.307);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 20;
+
+
+}
+
+.tooltip{
+    background-color: var(--page-primary-bgColor);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    
+}
+
+.closeButton{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+.closeButtonContainer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 992px){
+    .adminContainer{
+        display: block;
+    }
+}
+
+@media (max-width: 768px){
+    .modal{
+        display: block;
+    } 
+
+ 
+}
+
+
+@media (max-width: 600px){
+    .modal{
+        display: block;
+    } 
+
+
+}

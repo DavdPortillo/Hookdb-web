@@ -1,0 +1,114 @@
+
+.linkStyle{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.linkStyle:hover{
+    cursor: pointer;
+    color: rgb(56 189 248);
+    
+}
+
+.containerSecondary{
+    background-color: var(--page-secondary-bgColor);
+}
+
+.hrSecondaryStyle{
+    border: none;
+    background-color: rgb(95, 95, 95);
+}
+
+.textDescription{
+    color: #bababa;
+
+}
+
+
+
+
+
+/*---------------FORMS---------------*/
+/*---------------BUTTONS---------------*/
+.buttonStyle_selected{
+    background-color: rgb(31 41 55);
+    border: #404040 1px solid;
+}
+
+.buttonStyle_selected:hover{
+    cursor: pointer;
+    border: white 1px solid;
+    
+} 
+
+
+.buttonStyle_selected{
+    background-color: rgb(31 41 55);
+    border: #404040 1px solid;
+}
+
+.buttonStyle{
+    cursor: pointer;
+}
+
+.buttonStyle_active{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 3px;
+    background-color: rgb(31 41 55);
+} /*When a button is pressed*/
+
+.buttonStyle_disabled:disabled{
+    border: 1px solid rgb(121, 121, 121);
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(180, 180, 180);
+    border-radius: 3px;
+}
+
+.buttonStyle_disabled:hover{
+    cursor: auto;
+}
+
+.buttonStyle_active:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.111);
+    border: white 1px solid;
+    color: white;
+}
+
+.buttonStyle_unselected{
+    background-color: transparent;
+    border:  rgb(156 163 175) 1px solid;
+}
+
+.buttonStyle_unselected:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.111);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.inputTextStyle{
+    background-color: transparent;
+    border-width: 0 0 1px;
+    border-color: white;
+    outline: none;
+}
+
+.inputTextStyle:-webkit-autofill,
+.inputTextStyle:-webkit-autofill:focus {
+  transition: background-color 0s 600000s, color 0s 600000s !important;
+}

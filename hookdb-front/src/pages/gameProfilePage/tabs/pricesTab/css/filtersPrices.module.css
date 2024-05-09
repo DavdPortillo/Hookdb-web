@@ -1,0 +1,128 @@
+.filters{
+    grid-column: 1 / -1;
+    gap: 3px;
+    margin: 0 0 40px;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.filtersSpacing{
+    display: flex;
+    gap: 7px;
+}
+
+.alertButton{
+    font-size: 14px;
+    height: 30px;
+    margin-right: auto;
+    padding: 0 30px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.select{
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    min-width: 100px;
+    background-color: transparent;
+    border: #828282 1px solid;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 5px;
+}
+
+.option{
+    background-color: var(--page-primary-bgColor);
+
+}
+
+
+.cleanButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.activeOption{
+    background-color: #27303a;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 20px 0 0;
+}
+
+.title{
+    margin: 0;
+}
+
+.isSmallDescription{
+    height: 30px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+.modalAside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+ .closeButtonAside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.filterContainer{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    padding: 0 15px;
+    background-color: var(--container-secondary-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButtonContainer{
+    background-color: transparent;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+.h2{
+    padding: 0;
+}
+
+.label{
+    margin: 20px 0 6px;
+}
+
+@media (max-width: 992px){
+    .filters{
+        margin: 0 0 16px;
+    }
+}

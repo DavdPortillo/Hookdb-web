@@ -1,0 +1,77 @@
+.modalContainer{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; 
+}
+
+.logo {
+    margin-bottom: 0;
+}
+
+.modalBackground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+    z-index: 1; /* Modificado */
+}
+.modal {
+    position: relative;
+    z-index: 2; /* Modificado */
+    height: 475px;
+    width: 400px;
+    background-color: rgba(3, 7, 18, 0.5); /* Modificado */
+    border-radius: 12px;
+    justify-content: space-between;
+    cursor: auto;
+    padding: 30px 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Añadido */
+    -webkit-backdrop-filter: blur(10px); /* Añadido */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Añadido */
+}
+
+
+
+.closeButton {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 5px;    
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.closeButton:hover{
+    opacity: 1;
+}
+
+.titleContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+@media (max-width: 400px){
+    .modal{
+        width: 100%;
+    }
+}
+

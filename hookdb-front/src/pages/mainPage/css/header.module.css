@@ -1,0 +1,181 @@
+.header {
+    margin-top: 3px;
+    grid-column: 2/-2;
+    padding: 20px 0;
+    max-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    flex: 1;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+  
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.hookTitle{
+    position: absolute;
+    left: 39px;
+    top: 8px;
+    z-index: 20;
+
+}
+
+
+.title:hover ~ .hookTitle, .hookTitle:hover{
+    animation: hook 3s ease-in-out alternate forwards;
+    animation-delay: 1s;
+}
+
+@keyframes hook {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+        transform: translateY(100px)
+        }
+    50%{
+        transform: translateY(80px);
+
+    }
+    75%{
+        transform: translateY(100px);
+
+    }
+    100%{
+        transform: translateY(0);
+
+    }
+  }
+
+.userPanel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+}
+
+.identify {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-wrap: nowrap;
+}
+
+.userPanelChild {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userSettingsContainer {
+    height: 30px;
+}
+
+.userSettings {
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+}
+
+.userSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 10;
+
+}
+
+
+
+.user {
+    height: 30px;
+    border-radius: 5px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+.imageContainer{
+    height: 25px;
+    width: 25px;
+}
+
+
+.user:hover {
+    background-color: #e1e1e132;
+}
+
+.userProfile {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 6px solid #eaeaea;
+}
+
+.mobileHeader{
+    padding: 0;
+    height: 50px;
+
+}
+
+.mobileHEader2{
+    padding: 20px 10px;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        grid-column: 2/-2;
+    }
+}
+
+@media (max-width: 992px) {
+    .hideUserLinks {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        grid-column: 1/-1;
+      
+    }
+
+    .link {
+        flex: 0;
+        font-size: 15px;
+        display: flex;
+    
+    }
+
+    .userPanel{
+        width: 30px;
+    }
+}

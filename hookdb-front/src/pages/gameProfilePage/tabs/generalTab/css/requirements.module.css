@@ -1,0 +1,19 @@
+.requierements{
+    display: flex;
+}
+
+.requirementsSection{
+    flex: 1;
+    margin: 0 10px 0 0;
+}
+
+.subtitle{
+    font-size: 16px;
+    margin: 8px 0 16px;
+}
+
+@media (max-width: 1200px){
+    .requierements{
+        flex-direction: column;
+    }
+}

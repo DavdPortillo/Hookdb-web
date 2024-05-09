@@ -1,0 +1,861 @@
+{
+    "language": "es",
+    "code": 1,
+    "header": {
+        "identify": "Identifícate",
+        "myScores": "Votaciones",
+        "myLists": "Listas",
+        "settings": "Configuración",
+        "signOut": "Cerrar sesión",
+        "searchInput": "Buscar"
+    },
+    "mainPage": {
+        "upcomingReleases": "Próximos lanzamientos",
+        "popularTabText": "Popular",
+        "newReleasesTabText": "Novedades",
+        "seeAllButton": "Ver más",
+        "latestNewsH2": "Últimas noticias"
+    },
+    "gameProfilePage": {
+        "addToListButton": "Añadir a lista",
+        "ignoredButton": "Ignorado",
+        "ignoreButton": "Ignorar",
+        "followingButton": "Siguiendo",
+        "followButton": "Seguir",
+        "distributor": "Distribuidor",
+        "developer": "Desarrollador",
+        "platform": "Plataforma",
+        "overallScore": "Nota general",
+        "recentScore": "Nota reciente",
+        "votes": "votos",
+        "notPlayed": "No jugado",
+        "played": "Jugado",
+        "storyTime": "Historia",
+        "CompletionTime": "Completo",
+        "tabNames": ["general", "precios", "criticas", "dlcs", "noticias"],
+        "generalTab": {
+            "sipnosis": "Sipnosis",
+            "generalInformation": "Información general",
+            "systemRequirements": "Requisitos del sistema",
+            "operatingSystem": "S. Operativo",
+            "processor": "Procesador",
+            "RAM": "RAM",
+            "graphics": "Gráficos",
+            "directX": "DirectX",
+            "storage": "Almacenamiento",
+            "featuresTitle": "Características",
+            "seriesGamesTitle": "Saga",
+            "minimumRequirements": "Requisitos mínimos",
+            "recommendedRequirements": "Requisítos recomendados",
+            "languagesTitle": "Idiomas",
+            "interfaceColumn": "Interfaz",
+            "VoiceColumn": "Voces",
+            "subtitlesColumn": "Subtítulos"
+        },
+        "pricesTab": {
+            "region": "Región",
+            "platform": "Plataforma",
+            "edition": "Edición",
+            "productType": "Tipo de producto",
+            "lowestToHighest": "Precio de menor a mayor",
+            "highesttoLowest": "Precio de mayor a menor",
+            "vendor": "Vendedor",
+            "price": "Precio",
+            "visitSellerButton": "Ir al vendedor"
+        }
+    },
+    "adminPanelPage": {
+        "role": "Administrador",
+        "mainMenu": "Menú principal",
+        "settings": "Configuración",
+        "logOut": "Cerrar sesión",
+        "nameTabs": {
+            "users": "Usuarios",
+            "games": "Juegos",
+            "news": "Noticias",
+            "platforms": "Plataformas",
+            "genres": "Géneros",
+            "languages": "Idiomas",
+            "developers": "Desarrolladores",
+            "distributors": "Distribuidores",
+            "features": "Features",
+            "productPlatforms": "Plataformas del producto",
+            "productVendors": "Vendedores del producto",
+            "productKeys": "Keys del producto",
+            "productRegions": "Regiones del producto",
+            "productEditions": "Ediciones del producto",
+            "dlcs": "DLCs",
+            "numberPlayer": "Número de jugadores"
+        },
+        "userTab": {
+            "title": "Usuarios",
+            "inputSearch": "Escribe aquí...",
+            "dropdownOptions": ["Id", "Usuario", "Email"],
+            "listColumns": {
+                "id": "Id",
+                "username": "Nombre de usuario",
+                "email": "Email",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar usuario",
+                "fields": {
+                    "username": "Nombre de usuario",
+                    "email": "Email",
+                    "country": "País",
+                    "year": "Año",
+                    "language": {
+                        "language": "Idioma",
+                        "english": "Inglés",
+                        "spanish": "Español"
+                    },
+                    "role": {
+                        "role": "Rol del usuario",
+                        "admin": "Administrador",
+                        "user": "Usuario"
+                    }
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar"
+        },
+        "newsTab": {
+            "title": "Noticias",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar noticia",
+                "fields": {
+                    "imageAlt": "Alt de la imagen",
+                    "headline": "Titular",
+                    "content": "Contenido",
+                    "subtitle": "Subtítulo"
+                }
+            },
+            "create": {
+                "title": "Crear noticia",
+                "fields": {
+                    "imageAlt": "Alt de la imagen",
+                    "headline": "Titular",
+                    "content": "Contenido",
+                    "subtitle": "Subtítulo"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createNews": "Crear noticia"
+        },
+        "platformTab": {
+            "title": "Plataformas",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar plataforma",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear paltaforma",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createPlatform": "Crear plataforma"
+        },
+        "genreTab": {
+            "title": "Géneros",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar género",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear género",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createGenre": "Crear género"
+        },
+        "languageTab": {
+            "title": "Idioma",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar idioma",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear idioma",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createLanguage": "Crear idioma"
+        },
+        "developerTab": {
+            "title": "Desarroladores",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar desarrollador",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear desarrollador",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createDeveloper": "Crear desarrollador"
+        },
+        "distributorTab": {
+            "title": "Distribuidores",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar distribuidor",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear distribuidor",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createDistributor": "Crear distribuidor"
+        },
+        "featureTab": {
+            "title": "Características",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar característica",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "create": {
+                "title": "Crear característica",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createFeature": "Crear característica"
+        },
+        "productKeyTab": {
+            "title": "Keys del producto",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar key del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear key del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createProductKey": "Crear key del producto"
+        },
+        "productRegionTab": {
+            "title": "Regiones del producto",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar región del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear región del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createProductRegion": "Crear región del producto"
+        },
+        "productEditionTab": {
+            "title": "Ediciones del producto",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar edición del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear edición del producto",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createProductEdition": "Crear edición del producto"
+        },
+        "productPlatformTab": {
+            "title": "Plataformas del producto",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar plataforma del producto",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "create": {
+                "title": "Crear plataforma del producto",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createProductPlatform": "Crear plataforma del producto"
+        },
+        "productVendorTab": {
+            "title": "Vendedores del producto",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar vendedor del producto",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "create": {
+                "title": "Crear vendedor del producto",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createProductVendor": "Crear vendedor del producto"
+        },
+        "dlcTab": {
+            "title": "Dlcs",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar dlc",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen",
+                    "sinopsis": "Sinopsis",
+                    "date": "Fecha",
+                    "gameId": "Id del juego"
+                }
+            },
+            "create": {
+                "title": "Crear dlc",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen",
+                    "sinopsis": "Sinopsis",
+                    "date": "Fecha",
+                    "gameId": "Id del juego"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createDlc": "Crear Dlc"
+        },
+        "numberPlayersTab": {
+            "title": "Número de jugadores",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Número",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar número de jugadores",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "create": {
+                "title": "Crear número de jugadores",
+                "fields": {
+                    "name": "Nombre"
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createNumberPlayers": "Crear número de jugadores"
+        },
+        "gameTab": {
+            "title": "Juegos",
+            "inputSearch": "Escribe aquí...",
+            "listColumns": {
+                "id": "Id",
+                "name": "Nombre",
+                "actions": "Acciones"
+            },
+            "edit": {
+                "title": "Editar dlc",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen",
+                    "sinopsis": "Sinopsis",
+                    "date": "Fecha",
+                    "gameId": "Id del juego"
+                }
+            },
+            "create": {
+                "title": "Crear juego",
+                "fields": {
+                    "name": "Nombre",
+                    "imageAlt": "Alt de la imagen",
+                    "title": "Título",
+                    "trailer": "Trailer",
+                    "date": "Fecha",
+                    "storyTime": "Tiempo de historia",
+                    "completeTime": "tiempo de completado",
+                    "sinopsis": "Sinopsis",
+                    "platform": "Plataforma",
+                    "genre": "Género",
+                    "developer": "Desarrollador",
+                    "distributor": "Distribuidor",
+                    "minimumProcessor": "Procesador [Requisitos mínimos]",
+                    "minimumRam": "Ram [Requisitos mínimos]",
+                    "minimumGraphicsCard": "Tarjeta gráfica [Requisitos mínimos]",
+                    "minimumDirectX": "DirectX [Requisitos mínimos]",
+                    "minimumStorage": "Almacenamiento [Requisitos mínimos]",
+                    "minimumOperatingSystem": "Sistema operativo [Requisitos mínimos]",
+                    "recommendedProcessor": "Procesador [Requisitos recomendados]",
+                    "recommendedRam": "Ram [Requisitos recomendados]",
+                    "recommendedGraphicsCard": "Tarjeta gráfica [Requisitos recomendados]",
+                    "recommendedDirectX": "DirectX [Requisitos recomendados]",
+                    "recommendedStorage": "Almacenamiento [Requisitos recomendados]",
+                    "recommendedOperatingSystem": "Sistema operativo [Requisitos recomendados]",
+                    "gameFeature": "Características del juego",
+                    "availabilities": "Idiomas disponibles",
+                    "product": {
+                        "product": "Producto"
+                    }
+                }
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar",
+            "publishButton": "Publicar",
+            "createGame": "Crear juego"
+        }
+    },
+
+    "modals": {
+        "authentication": {
+            "logIn": {
+                "logInH2": "Iniciar sesión",
+                "emailInput": "Usuario o email",
+                "passwordInput": "Contraseña",
+                "rememberMeInThisPC": "Recuérdame en este PC",
+                "forgotPassword": "Olvidé la contraseña",
+                "accessButton": "Acceder",
+                "orSeparator": "or",
+                "accessGoogleButton": "Acceder con Google",
+                "dontHaveAcountText": "¿No tienes cuenta?",
+                "signInLink": "Regístrate"
+            },
+            "signIn": {
+                "signInH2": "Regístrate",
+                "userInput": "Nombre de usuario",
+                "emailInput": "Email",
+                "passwordInput": "Contraseña",
+                "confirmPasswordInput": "Confirmar contraseña",
+                "acceptTermsAndConditionsCheckbox": "Acepto los términos y condiciones",
+                "createAccountButton": "Crear cuenta",
+                "haveAcountText": "¿Tienes cuenta?",
+                "logInLink": "Iniciar sesión"
+            }
+        }
+    },
+    "userProfilePage": {
+        "asideSection": {
+            "generalInformationLink": "Información general",
+            "personalInformationLink": "Cuenta",
+            "followedGamesLink": "Seguidos",
+            "ignoredGamesLink": "Ignorados",
+            "logOutButton": "Cerrar sesión"
+        },
+        "generalInformationTab": {
+            "tabTitle": "Información general",
+            "tabDescription": "En la sección de ajustes de tu cuenta, encontrarás herramientas que te permiten modificar información relacionada con tu perfil. Este espacio está diseñado para que puedas gestionar datos como el nombre de usuario y la imagen asociada a tu cuenta de manera conveniente. Explora las opciones disponibles para realizar ajustes según tus necesidades particulares.",
+            "profileSection": {
+                "title": "Perfil",
+                "changeImageButton": "Cambiar",
+                "altUserImage": "Foto de perfil del usuario",
+                "usernameLabel": "Nombre de usuario",
+                "emailLabel": "Email",
+                "passwordButton": "Cambiar contraseña",
+                "changePasswordModal": {
+                    "title": "Vas a cambiar tu contraseña",
+                    "description": "Debes escribir tu contraseña para confirmar",
+                    "oldPasswordLabel": "Contraseña anterior",
+                    "newPasswordLabel": "Nueva contraseña",
+                    "repeatNewPasswordLabel": "Repite la nueva contraseña",
+                    "cancelButton": "Cancelar",
+                    "confirmButton": "Aceptar"
+                },
+                "changeEmailModal": {
+                    "title": "Vas a cambiar tu email",
+                    "description": "Debes escribir tu contraseña para confirmar",
+                    "cancelButton": "Cancelar",
+                    "confirmButton": "Aceptar"
+                }
+            },
+            "personalInformationSection": {
+                "title": "Datos personales",
+                "countryLabel": "País",
+                "genderLabel": "Género",
+                "genreOptions": {
+                    "masculine": "Masculino",
+                    "feminine": "Femenino",
+                    "other": "Otro"
+                },
+                "yearLabel": "Año de nacimiento",
+                "languageLabel": "Idioma",
+                "languageOptions": {
+                    "spanish": "Español",
+                    "english": "Inglés"
+                }
+            },
+            "followedGamesSection": {
+                "title": "Juegos seguidos",
+                "description": "En esta sección, puedes verificar qué juegos estás siguiendo y también tienes la capacidad de dejar de seguirlos si así lo deseas."
+            },
+            "ignoredGamesSection": {
+                "title": "Juegos ignorados",
+                "description": "En esta sección, puedes verificar qué juegos estás ignorando y también tienes la capacidad de dejar de ignorarlos si así lo deseas."
+            },
+            "cancelButton": "Cancelar",
+            "saveButton": "Guardar"
+        },
+        "accountTab": {
+            "tabTitle": "Cuenta",
+            "tabDescription": "En esta sección, puedes desactivar temporalmente tu cuenta o eliminarla permanentemente si así lo deseas. Si optas por desactivar tu cuenta, podrás reactivarla en cualquier momento y recuperar tu información anterior. Si prefieres eliminar permanentemente tu cuenta, ten en cuenta que esto eliminará todos tus datos de forma irreversible.",
+            "deleteAccount": {
+                "title": "Eliminar cuenta",
+                "description": "Para eliminar tu cuenta, debes ingresar tu nombre de usuario en el campo de texto. Recuerda que una vez que se elimine la cuenta, perderás todos tus datos.",
+                "deleteInput": "Escribe tu nombre de usuario",
+                "deleteAccountButton": "Eliminar cuenta"
+            }
+        }
+    },
+    "listPage": {
+        "title": "Listas",
+        "createListButton": "Crear lista",
+        "subtitle": "Mis listas",
+        "listOptions": {
+            "renameButton": "Renombrar",
+            "deleteButton": "Eliminar"
+        },
+        "listDescription": {
+            "description": "Añade una descripción aquí...",
+            "dateCreated": "Creado",
+            "lastModified": "Última modificación"
+        },
+        "filterOptions": {
+            "releaseDate": "Fecha de lanzamiento",
+            "rating": "Valoración",
+            "alphabetical": "Alfabético"
+        },
+        "warnings": {
+            "noLists": "No hay listas creadas",
+            "noOpenList": "No hay ninguna lista abierta"
+        },
+        "deleteModal": {
+            "title": "Vas a eliminar una lista",
+            "description": "¿Estás seguro que queires eliminar la lista. Los juegos de la lista también serán eliminados",
+            "cancelButton": "Cancelar",
+            "deleteButton": "Eliminar"
+        },
+        "createListTooltip": {
+            "listNamePlaceholder": "Nombre de la lista",
+            "addButton": "Añadir"
+        }
+    },
+    "feedPage": {
+        "title": "Mi feed",
+        "warnings": {
+            "noExistsNews": "No hya noticias nuevas"
+        }
+    },
+    "searchResultPage": {
+        "title": "Resultados para",
+        "description": "Coincidencia",
+        "displayFilter": "Mostrar por"
+    },
+    "tooltips": {
+        "searchSuggestions": {
+            "viewAllResultsButton": "Ver todos los resultados"
+        }
+    },
+    "warnings": {
+        "success": {
+            "login": "Inicio de sesión exitoso",
+            "deleteDeveloper": "El desarrollador ha sido eliminado exitosamente",
+            "createDeveloper": "El desarrollador fue creado exitosamente",
+            "editDeveloper": "El desarrollador fue editado exitosamente",
+            "deleteDistributor": "El distribuidor ha sido eliminado exitosamente",
+            "createDistributor": "El distribuidor fue creado exitosamente",
+            "editDistributor": "El distribuidor fue editado exitosamente",
+            "deleteDlc": "El DLC ha sido eliminado exitosamente",
+            "createDlc": "El DLC para el juego fue creado exitosamente",
+            "editDlc": "El DLC para el juego fue editado exitosamente",
+            "deleteProductEdition": "La edición del producto ha sido eliminada exitosamente",
+            "createProductEdition": "La edición del producto fue creada exitosamente",
+            "editProductEdition": "La edición del producto fue editada exitosamente",
+            "deleteFeature": "La característica ha sido eliminada exitosamente",
+            "createFeature": "La característica fue creada exitosamente",
+            "editFeature": "La característica fue editada exitosamente",
+            "deleteGenre": "El género ha sido eliminado exitosamente",
+            "createGenre": "El género fue creado exitosamente",
+            "editGenre": "El género fue editado exitosamente",
+            "deleteLanguage": "El idioma ha sido eliminado exitosamente",
+            "createLanguage": "El idioma fue creado exitosamente",
+            "editLanguage": "El idioma fue editado exitosamente",
+            "deleteNews": "La noticia ha sido eliminada exitosamente",
+            "createNews": "La noticia fue creada exitosamente",
+            "editNews": "La noticia fue editada exitosamente",
+            "deleteNumberPlayers": "El número de jugadores ha sido eliminado exitosamente",
+            "createNumberPlayers": "El número de jugadores fue creado exitosamente",
+            "editNumberPlayers": "El número de jugadores fue editado exitosamente",
+            "deletePlatform": "La plataforma ha sido eliminada exitosamente",
+            "createPlatform": "La plataforma fue creada exitosamente",
+            "editPlatform": "La plataforma fue editada exitosamente",
+            "deleteProductKey": "La clave del producto ha sido eliminada exitosamente",
+            "createProductKey": "La clave del producto fue creada exitosamente",
+            "editPlatformKey": "La clave del producto fue creada exitosamente",
+            "deleteProductPlatform": "La plataforma del producto ha sido eliminada exitosamente",
+            "createProductPlatform": "La plataforma del producto fue creada exitosamente",
+            "editProductPlatform": "La plataforma del producto fue editada exitosamente",
+            "deleteProductVendor": "El vendedor del producto ha sido eliminado exitosamente",
+            "createProductVendor": "El vendedor del producto fue creado exitosamente",
+            "editProductVendor": "El vendedor del producto fue editado exitosamente",
+            "deleteProductRegion": "La región del producto ha sido eliminada exitosamente",
+            "createProductRegion": "La región del producto fue creada exitosamente",
+            "editProductRegion": "La región del producto fue editada exitosamente",
+            "deleteUSer": "El usuario ha sido eliminado exitosamente",
+            "editUser": "Usuario editado exitosamente",
+            "voteReview": "Has votado en una reseña",
+            "removeVoteReview": "Has eliminado tu voto de la reseña",
+            "createList": "Lista creada exitosamente"
+        },
+        "error": {
+            "login": "Usuario o contraseña incorrecto",
+            "acceptTerms": "Debes aceptar los términos y condiciones",
+            "signUpError": "Hubo un problema al registrarse",
+            "usernameEmpty": "El nombre de usuario no puede estar vacío",
+            "usernameFirstLetter": "El nombre de usuario debe comenzar con una letra",
+            "usernameCharacters": "El nombre de usuario debe tener al menos 3 caracteres y solo puede contener letras, números o guiones bajos",
+            "emailEmpty": "El email no puede estar vacío",
+            "emailValid": "Introduce una dirección de correo electrónico válida",
+            "passwordEmpty": "La contraseña no puede estar vacía",
+            "passwordCharacters": "La contraseña no puede tener menos de 6 caracteres",
+            "passwordSymbol": "La contraseña debe contener al menos un carácter especial",
+            "passwordNumber": "La contraseña debe tener al menos un número",
+            "passwordMatch": "Las contraseñas no coinciden",
+            "searchByName": "Fallo al buscar por nombre",
+            "developerRetrieve": "Fallo al obtener todos los desarrolladores",
+            "developerInfoRetrieve": "Fallo al obtener la información del desarrollador",
+            "developerDelete": "Fallo al eliminar el desarrollador",
+            "developerCreate": "Fallo al crear el desarrollador",
+            "developerNameFieldEmpty": "El nombre del desarrollador no puede estar vacío",
+            "developerEdit": "Se produjo un error al editar el desarrollador",
+            "distributorRetrieve": "Fallo al obtener todos los distribuidores",
+            "distributorInfoRetrieve": "Fallo al obtener la información del distribuidor",
+            "distributorDelete": "Fallo al eliminar el distribuidor",
+            "distributorEdit": "Fallo al editar el distribuidor",
+            "distributorNameFieldEmpty": "El nombre del distribuidor no puede estar vacío",
+            "dlcRetrieve": "Fallo al obtener todos los DLC",
+            "dlcInfoRetrieve": "Fallo al obtener la información del DLC",
+            "dlcDelete": "Fallo al eliminar el DLC",
+            "dlcCreate": "Fallo al crear el DLC del juego",
+            "nameEmpty": "El nombre no puede estar vacío",
+            "altImageEmpty": "El alt de la imagen no puede estar vacío",
+            "imageEmpty": "La imagen no puede estar vacía",
+            "sinopsisEmpty": "La sinopsis de la noticia no puede estar vacía",
+            "dateEmpty": "La fecha no puede estar vacía",
+            "idGameEmpty": "El id del juego no puede estar vacío",
+            "idGameNumber": "El id del juego debe se un número",
+            "dlcEdit": "Fallo al editar el DLC del juego",
+            "featureRetrieve": "Fallo al obtener todas las características",
+            "featureInfoRetrieve": "Fallo al obtener la información de la característica",
+            "featureDelete": "Fallo al eliminar la característica",
+            "featureCreate": "Fallo al crear la característica",
+            "featureEdit": "Fallo al editar la característica",
+            "languageRetrieve": "Fallo al obtener todos los idiomas",
+            "languageInfoRetrieve": "Fallo al obtener la información del idioma",
+            "languageDelete": "Fallo al eliminar el idioma",
+            "languageCreate": "Fallo al crear el idioma",
+            "languageEdit": "Fallo al editar el idioma",
+            "genreRetrieve": "Fallo al obtener todos los géneros",
+            "genreInfoRetrieve": "Fallo al obtener la información del género",
+            "genreDelete": "Fallo al eliminar el género",
+            "genreCreate": "Fallo al crear el género",
+            "genreEdit": "Fallo al editar el género",
+            "newsRetrieve": "Fallo al obtener todas las noticias",
+            "newsInfoRetrieve": "Fallo al obtener la información de la noticia",
+            "newsDelete": "Fallo al eliminar la noticia",
+            "newsCreate": "Fallo al crear la noticia",
+            "newsEdit": "Fallo al editar la noticia",
+            "titleEmpty": "El título de la noticia no puede estar vacío",
+            "contentEmpty": "El contenido de la noticia no puede estar vacío",
+            "subtitleEmpty": "El subtítulo de la noticia no puede estar vacía",
+            "numberPlayersRetrieve": "Fallo al obtener todos los números de jugadores",
+            "numberPlayersInfoRetrieve": "Fallo al obtener la información del número de jugadores",
+            "numberPlayersDelete": "Fallo al eliminar el número de jugadores",
+            "numberPlayersCreate": "Fallo al crear el número de jugadores",
+            "numberPlayersEdit": "Fallo al editar el número de jugadores",
+            "numberPlayersByNumber": "Fallo al buscar el número de jugadores por número",
+            "beANumber": "Debe ser un número",
+            "platformRetrieve": "Fallo al obtener todas las plataformas",
+            "platformInfoRetrieve": "Fallo al obtener la información de la plataforma",
+            "platformDelete": "Fallo al eliminar la plataforma",
+            "platformCreate": "Fallo al crear la plataforma",
+            "platformEdit": "Fallo al editar la plataforma",
+            "productKeyRetrieve": "Fallo al obtener todas las claves de producto",
+            "productKeyInfoRetrieve": "Fallo al obtener la información de la clave de producto",
+            "productKeyDelete": "Fallo al eliminar la clave de producto",
+            "productKeyCreate": "Fallo al crear la clave de producto",
+            "productKeyEdit": "Fallo al editar la clave de producto",
+            "productPlatformRetrieve": "Fallo al obtener todas las plataformas de producto",
+            "productPlatformInfoRetrieve": "Fallo al obtener la información de la plataforma de producto",
+            "productPlatformDelete": "Fallo al eliminar la plataforma de producto",
+            "productPlatformCreate": "Fallo al crear la plataforma de producto",
+            "productPlatformEdit": "Fallo al editar la plataforma de producto",
+            "productVendorRetrieve": "Fallo al obtener todos los vendedores de producto",
+            "productVendorInfoRetrieve": "Fallo al obtener la información del vendedor de producto",
+            "productVendorDelete": "Fallo al eliminar el vendedor de producto",
+            "productVendorCreate": "Fallo al crear el vendedor de producto",
+            "productVendorEdit": "Fallo al editar el vendedor de producto",
+            "productRegionRetrieve": "Fallo al obtener todas las regiones de producto",
+            "productRegionInfoRetrieve": "Fallo al obtener la información de la región de producto",
+            "productRegionDelete": "Fallo al eliminar la región de producto",
+            "productRegionCreate": "Fallo al crear la región de producto",
+            "productRegionEdit": "Fallo al editar la región de producto",
+            "userRetrieve": "Fallo al obtener todos los usuarios",
+            "userInfoRetrieve": "Fallo al obtener la información del usuario",
+            "userDelete": "Fallo al eliminar el usuario",
+            "userCreate": "Fallo al crear el usuario",
+            "userEdit": "Fallo al editar el usuario",
+            "userFindByField": "Fallo al obtener los usuarios por el campo especificado",
+            "countryField": "El campo country debe estar vacío o tener entre 2 y 50 caracteres",
+            "yearField": "El campo year debe estar entre 1900 y 2099",
+            "voteYourself": "No puedes votar tu propia crítica",
+            "incorrectOldPassword": "La contraseña antigua no es correcta",
+            "oldPasswordEmpty": "La contraseña antigua no puede estar vacía",
+            "newPasswordMatch": "La nueva contraseña no es igual",
+            "listNameEmpty": "El nombre de la lista no puede estar vacío",
+            "listNameNotNumber": "La lista no puede ser un número",
+            "listNameLength": "La lista debe tener entre 2 y 40 caracteres",
+            "listNameExist": "Ya existe el nombre de la lista"
+        }
+    }
+}
