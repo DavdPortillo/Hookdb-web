@@ -84,11 +84,11 @@ El front-end ha sido desarrollado utilizando las siguientes tecnologías:
 ## Estructura del proyecto 💻
 Para crear una jerarquía sencilla e intuitiva, ya que el proyecto es bastante complejo, he desarrollado la siguiente estructura: 
 Pages
-|_Page
-   |_📁[Tab]
-   |_📁components
-   |_📁css
-   |_🗃page.jsx
+|_Page  
+   ··|_📁[Tab]  
+   ··|_📁components  
+   ··|_📁css  
+   ··|_🗃page.jsx  
 
 Cada vista de la web está representada por una *Page*. En la raíz de esta, se encuentra un archivo que contiene todos los componentes hijos ubicados en la carpeta *components*, junto con sus archivos de estilos correspondientes en la carpeta *css*. Opcionalmente, existe la carpeta *Tab*, la cual sigue la misma estructura que *Page*. Esta carpeta es creada cuando una *Page* contiene una barra de navegación que hace cambiar gran parte de la información de la *Page*
 #
