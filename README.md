@@ -64,6 +64,19 @@ Se utiliza Cloudflare para proporcionar una capa adicional de seguridad y mejora
 
 La configuración y el proceso de despliegue han sido desarrollados por **David Portillo Hoyos**.
 
+# Documentación de entorno cliente 📚
+
+## Tecnologías Utilizadas 💻
+
+El front-end ha sido desarrollado utilizando las siguientes tecnologías:
+
+- **HTML**: proporciona una estructura para presentar el contenido de una web, utilizando etiquetas y atributos.
+- **CSS**: es un lenguaje de estilo para definir el diseño de los elementos HTML en una pagina web.
+- **React**: es una biblioteca de Javascript que permite crear compoenntes para organizar y reutilizar codigo.
+- **React router**: es una biblioteca de React que permite la navegacióne entre diferentes componenentes de una web, permitiendo crear aplicaciones de una sola página (SPA).
+- **Toastify**: es una biblioteca de notificaciones para react, que permite crear notificaciones de éxito y error.
+- **Icons material**: es una biblioteca de iconos que proporciona una gran cantidad de iconos vectoriales.
+
 #
 # Bibliografía utilizada 📚
 [Documentación de Spring](https://docs.spring.io/spring-framework/reference/index.html)  
