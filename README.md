@@ -84,8 +84,8 @@ El front-end ha sido desarrollado utilizando las siguientes tecnologías:
 ## Estructura del proyecto 💻
 Para crear una jerarquía sencilla e intuitiva, ya que el proyecto es bastante complejo, he desarrollado la siguiente estructura:     
 
-Pages  
-&nbsp;&nbsp;&nbsp;|_Page  
+📁Pages  
+&nbsp;&nbsp;&nbsp;|_📁Page  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_📁[Tab]  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_📁components  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_📁css  
