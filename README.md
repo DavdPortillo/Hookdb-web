@@ -6,6 +6,9 @@
 #
 
 # Historial de cambios 📚
+El historial de cambios de la API se encuentra en los commits de el mismo repositorio
+
+#
 
 ## API
 
