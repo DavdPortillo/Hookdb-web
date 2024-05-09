@@ -67,6 +67,9 @@ La configuración y el proceso de despliegue han sido desarrollados por **David 
 #
 # Bibliografía utilizada 📚
 [Documentación de Spring](https://docs.spring.io/spring-framework/reference/index.html)
+[Documentación de React]([https://docs.spring.io/spring-framework/reference/index.html](https://react.dev/reference/react))
+[Udemy - Tutorial de React](https://www.udemy.com/course/react-cero-experto/)
+[Documentación de MDN. CSS y Javescript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 
 
